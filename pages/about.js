@@ -5,7 +5,7 @@ import AboutContent from "../components/About/AboutContent";
 import FunFacts from "../components/About/FunFacts";
 import WeProvideServices from "../components/About/WeProvideServices";
 import TeamStyleTwo from "../components/Common/TeamStyleTwo";
-import AwardWinningMovies from "../components/Common/AwardWinningMovies";
+import AwardWinningMovies from "../components/HomeThree/AwardWinningMovies";
 import ContactWithUs from "../components/Common/ContactWithUs";
 import PartnersStyleThree from "../components/Common/PartnersStyleThree";
 import Footer from "../components/_App/Footer";
@@ -31,9 +31,10 @@ const About = () => {
 
       <TeamStyleTwo />
 
-      <div className="bg-color">
+      {/* <div className="bg-color">
         <AwardWinningMovies />
-      </div>
+      </div> */}
+      <AwardWinningMovies/>
 
       <ContactWithUs />
 

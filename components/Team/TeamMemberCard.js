@@ -1,11 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import TeamMember from "../HomeThree/TeamMember";
 
 const TeamMemberCard = () => {
   return (
     <>
-      <div className="team-area-two ptb-100">
+      <TeamMember />
+      {/* <div className="team-area-two ptb-100">
         <div className="container">
           <div className="section-title">
             <span style={{ color: "#ff0000" }}>Our Team</span>
@@ -286,7 +288,7 @@ const TeamMemberCard = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
