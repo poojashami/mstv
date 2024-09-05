@@ -32,7 +32,7 @@ const BlogGrid = () => {
               <div className="single-blog">
                 <Link href="/blog-details">
                   <Image
-                    src="/img/blog/blog1.jpg"
+                    src="/img/news/news4.jpg"
                     alt="Image"
                     width={570}
                     height={400}
@@ -53,13 +53,17 @@ const BlogGrid = () => {
                   </ul>
 
                   <Link href="/blog-details">
-                    <h3>Video Production Services Your Business Must Have</h3>
+                    <h3>
+                      Swapnil Rai Presents “Networked Bollywood” to Sandeep
+                      Marwah at Marwah Studios
+                    </h3>
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore dolore magna aliqua
-                    sit amet consectetur.
+                    Noida, 21st August 2024 – Dr. Swapnil Rai, is an Assistant
+                    Professor in the Department of Film, Television, and Media
+                    at the University of Michigan, Ann Arbor, USA, presented her
+                    newly published book
                   </p>
 
                   <Link href="/blog-details" className="read-more">
@@ -73,7 +77,7 @@ const BlogGrid = () => {
               <div className="single-blog">
                 <Link href="/blog-details">
                   <Image
-                    src="/img/blog/blog2.jpg"
+                    src="/img/news/news5.jpg"
                     alt="Image"
                     width={570}
                     height={400}
@@ -95,15 +99,16 @@ const BlogGrid = () => {
 
                   <Link href="/blog-details">
                     <h3>
-                      Why You Need To Hire top className Video Production
-                      company
+                      AAFT Celebrates Raksha Bandhan with Members of Brahma
+                      Kumaris at Marwah Studios
                     </h3>
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore dolore magna aliqua
-                    sit amet consectetur.
+                    Noida, 20th August 2024 – The Asian Academy of Film and
+                    Television (AAFT) marked the auspicious occasion of Raksha
+                    Bandhan with a special celebration at Marwah Studios, Noida
+                    Film City.
                   </p>
 
                   <Link href="/blog-details" className="read-more">
@@ -117,7 +122,7 @@ const BlogGrid = () => {
               <div className="single-blog">
                 <Link href="/blog-details">
                   <Image
-                    src="/img/blog/blog3.jpg"
+                    src="/img/news/news14.jpg"
                     alt="Image"
                     width={570}
                     height={400}
@@ -138,13 +143,16 @@ const BlogGrid = () => {
                   </ul>
 
                   <Link href="/blog-details">
-                    <h3>Choosing A Video Location For Your Next Project</h3>
+                    <h3>World Photography Day Celebrated at AAFT</h3>
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore dolore magna aliqua
-                    sit amet consectetur.
+                    Noida, August 19, 2024: The AAFT School of Photography
+                    commemorated World Photography Day with great enthusiasm at
+                    Noida Film City. The event, held on August 19, celebrated
+                    the art and craft of photography, bringing together
+                    students, faculty, and photography enthusiasts to honor the
+                    rich history and evolving trends in the field.
                   </p>
 
                   <Link href="/blog-details" className="read-more">
@@ -158,7 +166,7 @@ const BlogGrid = () => {
               <div className="single-blog">
                 <Link href="/blog-details">
                   <Image
-                    src="/img/blog/blog7.jpg"
+                    src="/img/news/news2.jpg"
                     alt="Image"
                     width={570}
                     height={400}
@@ -178,13 +186,17 @@ const BlogGrid = () => {
                   </ul>
 
                   <Link href="/blog-details">
-                    <h3>Video Production Services Your Business Must Have</h3>
+                    <h3>
+                      Bharat Ratna Atal Bihari Vajpayee Remembered at AAFT
+                    </h3>
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore dolore magna aliqua
-                    sit amet consectetur.
+                    Noida, August 16, 2024: The late Bharat Ratna Atal Bihari
+                    Vajpayee, an iconic statesman, leader, poet, and former
+                    Prime Minister of India, was fondly remembered at an event
+                    held by the Asian Academy of Film and Television (AAFT) on
+                    his death anniversary.
                   </p>
 
                   <Link href="/blog-details" className="read-more">
@@ -198,7 +210,7 @@ const BlogGrid = () => {
               <div className="single-blog">
                 <Link href="/blog-details">
                   <Image
-                    src="/img/blog/blog8.jpg"
+                    src="/img/news/news8.jpg"
                     alt="Image"
                     width={570}
                     height={400}
@@ -219,15 +231,17 @@ const BlogGrid = () => {
 
                   <Link href="/blog-details">
                     <h3>
-                      Why You Need To Hire top className Video Production
-                      company
+                      ICMEI Congratulates the Republic of Congo on its
+                      Independence Day
                     </h3>
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore dolore magna aliqua
-                    sit amet consectetur.
+                    Noida, August 20, 2024: The International Chamber of Media
+                    and Entertainment Industry (ICMEI), led by its visionary
+                    President Dr. Sandeep Marwah, extends its heartfelt
+                    congratulations to the people of the Republic of Congo on
+                    the occasion of their Independence Day.
                   </p>
 
                   <Link href="/blog-details" className="read-more">
@@ -241,7 +255,7 @@ const BlogGrid = () => {
               <div className="single-blog">
                 <Link href="/blog-details">
                   <Image
-                    src="/img/blog/blog9.jpg"
+                    src="/img/news/news15.jpg"
                     alt="Image"
                     width={570}
                     height={400}
@@ -261,13 +275,18 @@ const BlogGrid = () => {
                   </ul>
 
                   <Link href="/blog-details">
-                    <h3>Choosing A Video Location For Your Next Project</h3>
+                    <h3>
+                      ICMEI Congratulates Estonia on the Day of Restoration of
+                      Independence
+                    </h3>
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore dolore magna aliqua
-                    sit amet consectetur.
+                    Noida, August 20, 2024: The International Chamber of Media
+                    and Entertainment Industry (ICMEI), under the esteemed
+                    leadership of Dr. Sandeep Marwah, extends its warmest
+                    congratulations to the people of Estonia on the occasion of
+                    the Day of Restoration of Independence.
                   </p>
 
                   <Link href="/blog-details" className="read-more">

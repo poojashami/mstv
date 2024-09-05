@@ -26,36 +26,36 @@ const BlogSidebar = () => {
             <li>
               <Link href="/blog-details">
                 <Image
-                  src="/img/blog-details/popular-img-1.jpg"
+                  src="/img/portfolio/mqdefault3.jpg"
                   alt="Image"
                   width={180}
                   height={100}
                 />
-                <h3>Tattoo life</h3>
+                <h3>Roobaroo</h3>
                 <span>June 27, 2023</span>
               </Link>
             </li>
             <li>
               <Link href="/blog-details">
                 <Image
-                  src="/img/blog-details/popular-img-2.jpg"
+                  src="/img/portfolio/mqdefault1.jpg"
                   alt="Image"
                   width={180}
                   height={100}
                 />
-                <h3>Human faith</h3>
+                <h3>Bharat ki Khoj</h3>
                 <span>June 26, 2023</span>
               </Link>
             </li>
             <li>
               <Link href="/blog-details">
                 <Image
-                  src="/img/blog-details/popular-img-3.jpg"
+                  src="/img/portfolio/mqdefault2.jpg"
                   alt="Image"
                   width={180}
                   height={100}
                 />
-                <h3>Alone journey</h3>
+                <h3>The Real Talk</h3>
                 <span>June 26, 2023</span>
               </Link>
             </li>
@@ -67,22 +67,22 @@ const BlogSidebar = () => {
 
           <ul>
             <li>
-              <Link href="/blog-grid">Upcoming movies</Link>
+              <Link href="/blog-grid">Upcoming News</Link>
             </li>
             <li>
-              <Link href="/blog-grid">Blockbusters</Link>
+              <Link href="/blog-grid">Roobaroo</Link>
             </li>
             <li>
-              <Link href="/blog-grid">Awarded</Link>
+              <Link href="/blog-grid">Bharat ki Khoj</Link>
             </li>
             <li>
-              <Link href="/blog-grid">Festival</Link>
+              <Link href="/blog-grid">The Real Talk</Link>
             </li>
             <li>
-              <Link href="/blog-grid">Trailer</Link>
+              <Link href="/blog-grid">Kala Sangam</Link>
             </li>
             <li>
-              <Link href="/blog-grid">Actors</Link>
+              <Link href="/blog-grid">Heal Your Life</Link>
             </li>
             <li>
               <Link href="/blog-grid">Film</Link>
@@ -96,14 +96,17 @@ const BlogSidebar = () => {
         <div className="about-wrap sidebar-widget">
           <h3>About</h3>
           <Image
-            src="/img/about-img2.jpg"
+            src="/img/news/news1.jpg"
             alt="Image"
             width={360}
             height={200}
           />
           <p>
-            We're a London based video production comp-any that aims to inspire
-            you through stories about people who defy the times we live.
+            MSTV is an online television channel solely designed to educate and
+            entertain the masses around the globe by showcasing various short
+            films, informative programs on varied topics and interactions with
+            eminent people from walks of life hailing from varied parts of the
+            world
           </p>
         </div>
 

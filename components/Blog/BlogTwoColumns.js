@@ -10,7 +10,7 @@ const BlogTwoColumns = () => {
           <div className="single-blog">
             <Link href="/blog-details">
               <Image
-                src="/img/blog/blog1.jpg"
+                src="/img/news/news1.jpg"
                 alt="Image"
                 width={570}
                 height={400}
@@ -31,13 +31,17 @@ const BlogTwoColumns = () => {
               </ul>
 
               <Link href="/blog-details">
-                <h3>Video Production Services Your Business Must Have</h3>
+                <h3>
+                  Sandeep Marwah Special Guest at Exhibition of Cinematic
+                  Heritage
+                </h3>
               </Link>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore dolore magna aliqua sit amet
-                consectetur.
+                New Delhi: The Visual Art Gallery at India Habitat Centre, Lodi
+                Road, became a hub of cultural nostalgia as it hosted an
+                extraordinary exhibition showcasing rare photographs and posters
+                from the glorious history of Indian cinema.
               </p>
 
               <Link href="/blog-details" className="read-more">
@@ -51,7 +55,7 @@ const BlogTwoColumns = () => {
           <div className="single-blog">
             <Link href="/blog-details">
               <Image
-                src="/img/blog/blog2.jpg"
+                src="/img/news/news2.jpg"
                 alt="Image"
                 width={570}
                 height={400}
@@ -72,15 +76,15 @@ const BlogTwoColumns = () => {
               </ul>
 
               <Link href="/blog-details">
-                <h3>
-                  Why You Need To Hire top className Video Production company
-                </h3>
+                <h3>Bharat Ratna Atal Bihari Vajpayee Remembered at AAFT</h3>
               </Link>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore dolore magna aliqua sit amet
-                consectetur.
+                Noida, August 16, 2024: The late Bharat Ratna Atal Bihari
+                Vajpayee, an iconic statesman, leader, poet, and former Prime
+                Minister of India, was fondly remembered at an event held by the
+                Asian Academy of Film and Television (AAFT) on his death
+                anniversary.
               </p>
 
               <Link href="/blog-details" className="read-more">
@@ -94,7 +98,7 @@ const BlogTwoColumns = () => {
           <div className="single-blog">
             <Link href="/blog-details">
               <Image
-                src="/img/blog/blog3.jpg"
+                src="/img/news/news3.jpg"
                 alt="Image"
                 width={570}
                 height={400}
@@ -115,13 +119,17 @@ const BlogTwoColumns = () => {
               </ul>
 
               <Link href="/blog-details">
-                <h3>Choosing A Video Location For Your Next Project</h3>
+                <h3>
+                  AAFT Collaborates with NFDC to Promote Skill Development in
+                  Media and Entertainment Industry
+                </h3>
               </Link>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore dolore magna aliqua sit amet
-                consectetur.
+                New Delhi: In a significant move to strengthen skill development
+                in India’s thriving media and entertainment sector, AAFT (Asian
+                Academy of Film & Television) has announced its collaboration
+                with the National Film Development Corporation (NFDC),
               </p>
 
               <Link href="/blog-details" className="read-more">
@@ -135,7 +143,7 @@ const BlogTwoColumns = () => {
           <div className="single-blog">
             <Link href="/blog-details">
               <Image
-                src="/img/blog/blog7.jpg"
+                src="/img/news/news7.jpg"
                 alt="Image"
                 width={570}
                 height={400}
@@ -155,13 +163,19 @@ const BlogTwoColumns = () => {
               </ul>
 
               <Link href="/blog-details">
-                <h3>Video Production Services Your Business Must Have</h3>
+                <h3>
+                  ICMEI Celebrates National Day of Niger with Heartfelt
+                  Congratulations
+                </h3>
               </Link>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore dolore magna aliqua sit amet
-                consectetur.
+                Noida, India, 3rd August 2024: The International Chamber of
+                Media and Entertainment Industry (ICMEI), representing the vast
+                fraternity of art and culture in India, extends its warmest
+                congratulations to Mr. Muostapha Aboubacar Diori, Chargé
+                d’Affaires of the Embassy of Niger in India, and to the people
+                of Niger on the occasion of their Independence Day.
               </p>
 
               <Link href="/blog-details" className="read-more">
@@ -175,7 +189,7 @@ const BlogTwoColumns = () => {
           <div className="single-blog">
             <Link href="/blog-details">
               <Image
-                src="/img/blog/blog8.jpg"
+                src="/img/news/news8.jpg"
                 alt="Image"
                 width={570}
                 height={400}
@@ -196,14 +210,18 @@ const BlogTwoColumns = () => {
 
               <Link href="/blog-details">
                 <h3>
-                  Why You Need To Hire top className Video Production company
+                  ICMEI Celebrates National Day of Burkina Faso with Warm
+                  Congratulations
                 </h3>
               </Link>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore dolore magna aliqua sit amet
-                consectetur.
+                Noida, India, 5th August 2024: The International Chamber of
+                Media and Entertainment Industry (ICMEI), representing the
+                entire fraternity of art and culture in India, extends its
+                heartiest congratulations to H.E. Dr. Désiré Boniface Somé,
+                Ambassador of Burkina Faso to India, and the people of Burkina
+                Faso on the occasion of their Independence Day.
               </p>
 
               <Link href="/blog-details" className="read-more">
@@ -217,7 +235,7 @@ const BlogTwoColumns = () => {
           <div className="single-blog">
             <Link href="/blog-details">
               <Image
-                src="/img/blog/blog9.jpg"
+                src="/img/news/news9.jpg"
                 alt="Image"
                 width={570}
                 height={400}
@@ -237,13 +255,19 @@ const BlogTwoColumns = () => {
               </ul>
 
               <Link href="/blog-details">
-                <h3>Choosing A Video Location For Your Next Project</h3>
+                <h3>
+                  ICMEI Celebrates Independence Day of Chad at Headquarters in
+                  Noida Film City
+                </h3>
               </Link>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore dolore magna aliqua sit amet
-                consectetur.
+                Noida, India, 11th August 2024: The International Chamber of
+                Media and Entertainment Industry (ICMEI), on behalf of the
+                entire fraternity of art and culture in India, extends its
+                heartiest congratulations to H.E. Dillah Lucienne, Ambassador of
+                Chad to India, and the people of Chad on the occasion of their
+                Independence Day.
               </p>
 
               <Link href="/blog-details" className="read-more">

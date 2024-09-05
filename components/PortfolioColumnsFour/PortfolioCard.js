@@ -3,242 +3,172 @@ import FsLightbox from "fslightbox-react";
 import Link from "next/link";
 
 const PortfolioCard = () => {
-  // if toggler is updated when lightbox is closed it will open it
-  const [toggler, setToggler] = useState(false);
+  const [lightboxControllers, setLightboxControllers] = useState({
+    toggler1: false,
+    source1: "https://www.youtube.com/embed/bk7McNUjWgw",
+    toggler2: false,
+    source2: "https://www.youtube.com/embed/other-video-1",
+    toggler3: false,
+    source3: "https://www.youtube.com/embed/other-video-2",
+    toggler4: false,
+    source4: "https://www.youtube.com/embed/other-video-3",
+    // Add more sources and togglers as needed
+  });
+
+  const toggleLightbox = (index) => {
+    setLightboxControllers((prevState) => ({
+      ...prevState,
+      [`toggler${index}`]: !prevState[`toggler${index}`],
+    }));
+  };
 
   return (
     <>
+      {/* Add lightbox instances for each video */}
       <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+        toggler={lightboxControllers.toggler1}
+        sources={[lightboxControllers.source1]}
+      />
+      <FsLightbox
+        toggler={lightboxControllers.toggler2}
+        sources={[lightboxControllers.source2]}
+      />
+      <FsLightbox
+        toggler={lightboxControllers.toggler3}
+        sources={[lightboxControllers.source3]}
+      />
+      <FsLightbox
+        toggler={lightboxControllers.toggler4}
+        sources={[lightboxControllers.source4]}
       />
 
       <section className="portfolio-area ptb-100">
         <div className="container">
           <div className="row justify-content-center">
+            {/* Portfolio Item 1 */}
             <div className="col-lg-3 col-md-6">
               <div className="single-portfolio">
                 <div
                   className="portfolio-image"
                   style={{
-                    backgroundImage: `url(/img/portfolio/portfolio1.jpg)`,
+                    backgroundImage: `url(/img/portfolio/mqdefault.jpg)`,
                   }}
                 >
                   <div className="price-wrap">
                     <div
-                      onClick={() => setToggler(!toggler)}
+                      onClick={() => toggleLightbox(1)}
                       className="play-video"
                     >
                       <i className="flaticon-play"></i>
                     </div>
                   </div>
                 </div>
-
                 <div className="portfolio-content">
-                  <span>Action</span>
-                  <h3>
-                    <Link href="/portfolio-details">Fighting club</Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-portfolio">
-                <div
-                  className="portfolio-image"
-                  style={{
-                    backgroundImage: `url(/img/portfolio/portfolio2.jpg)`,
-                  }}
-                >
-                  <div className="price-wrap">
-                    <div
-                      onClick={() => setToggler(!toggler)}
-                      className="play-video"
-                    >
-                      <i className="flaticon-play"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="portfolio-content">
-                  <span>Shooting</span>
-                  <h3>
+                  {/* <span>Action</span> */}
+                  <span>
                     <Link href="/portfolio-details">
-                      In the time of shooting
+                      CROWNING CEREMONY | LUXURYDOT. PR | ICMEI | Marwah Studios
+                      | MSTV
                     </Link>
-                  </h3>
+                  </span>
                 </div>
               </div>
             </div>
 
+            {/* Portfolio Item 2 */}
             <div className="col-lg-3 col-md-6">
               <div className="single-portfolio">
                 <div
                   className="portfolio-image"
                   style={{
-                    backgroundImage: `url(/img/portfolio/portfolio3.jpg)`,
+                    backgroundImage: `url(/img/portfolio/mqdefault1.jpg)`,
                   }}
                 >
                   <div className="price-wrap">
                     <div
-                      onClick={() => setToggler(!toggler)}
+                      onClick={() => toggleLightbox(2)}
                       className="play-video"
                     >
                       <i className="flaticon-play"></i>
                     </div>
                   </div>
                 </div>
-
                 <div className="portfolio-content">
-                  <span>Technology</span>
-                  <h3>
-                    <Link href="/portfolio-details">Deep Sea</Link>
-                  </h3>
+                  {/* <span>Shooting</span> */}
+                  <span>
+                    <Link href="/portfolio-details">
+                      Actor, Writer & Director Karan Razdan with Journalist
+                      Shreeya Katyal | Marwah Studios | MSTV
+                    </Link>
+                  </span>
                 </div>
               </div>
             </div>
 
+            {/* Portfolio Item 3 */}
             <div className="col-lg-3 col-md-6">
               <div className="single-portfolio">
                 <div
                   className="portfolio-image"
                   style={{
-                    backgroundImage: `url(/img/portfolio/portfolio4.jpg)`,
+                    backgroundImage: `url(/img/portfolio/mqdefault2.jpg)`,
                   }}
                 >
                   <div className="price-wrap">
                     <div
-                      onClick={() => setToggler(!toggler)}
+                      onClick={() => toggleLightbox(3)}
                       className="play-video"
                     >
                       <i className="flaticon-play"></i>
                     </div>
                   </div>
                 </div>
-
                 <div className="portfolio-content">
-                  <span>Horror</span>
-                  <h3>
-                    <Link href="/portfolio-details">Horror Night</Link>
-                  </h3>
+                  {/* <span>Technology</span> */}
+                  <span>
+                    <Link href="/portfolio-details">
+                      Actor Kamaal Malik with Journalist Shreeya Katyal | Marwah
+                      Studios | MSTV
+                    </Link>
+                  </span>
                 </div>
               </div>
             </div>
 
+            {/* Portfolio Item 4 */}
             <div className="col-lg-3 col-md-6">
               <div className="single-portfolio">
                 <div
                   className="portfolio-image"
                   style={{
-                    backgroundImage: `url(/img/portfolio/portfolio5.jpg)`,
+                    backgroundImage: `url(/img/portfolio/mqdefault3.jpg)`,
                   }}
                 >
                   <div className="price-wrap">
                     <div
-                      onClick={() => setToggler(!toggler)}
+                      onClick={() => toggleLightbox(4)}
                       className="play-video"
                     >
                       <i className="flaticon-play"></i>
                     </div>
                   </div>
                 </div>
-
                 <div className="portfolio-content">
-                  <span>Musical</span>
-                  <h3>
-                    <Link href="/portfolio-details">Music Video</Link>
-                  </h3>
+                  {/* <span>Horror</span> */}
+                  <span>
+                    <Link href="/portfolio-details">
+                      Film Director Iran Ebrahim Hatamikia with Journalist
+                      Shreeya Katyal | MSTV
+                    </Link>
+                  </span>
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-portfolio">
-                <div
-                  className="portfolio-image"
-                  style={{
-                    backgroundImage: `url(/img/portfolio/portfolio6.jpg)`,
-                  }}
-                >
-                  <div className="price-wrap">
-                    <div
-                      onClick={() => setToggler(!toggler)}
-                      className="play-video"
-                    >
-                      <i className="flaticon-play"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="portfolio-content">
-                  <span>Art</span>
-                  <h3>
-                    <Link href="/portfolio-details">Travelling World</Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-portfolio">
-                <div
-                  className="portfolio-image"
-                  style={{
-                    backgroundImage: `url(/img/portfolio/portfolio7.jpg)`,
-                  }}
-                >
-                  <div className="price-wrap">
-                    <div
-                      onClick={() => setToggler(!toggler)}
-                      className="play-video"
-                    >
-                      <i className="flaticon-play"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="portfolio-content">
-                  <span>Studio</span>
-                  <h3>
-                    <Link href="/portfolio-details">Shooting Spot</Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-portfolio">
-                <div
-                  className="portfolio-image"
-                  style={{
-                    backgroundImage: `url(/img/portfolio/portfolio8.jpg)`,
-                  }}
-                >
-                  <div className="price-wrap">
-                    <div
-                      onClick={() => setToggler(!toggler)}
-                      className="play-video"
-                    >
-                      <i className="flaticon-play"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="portfolio-content">
-                  <span>Documentary</span>
-                  <h3>
-                    <Link href="/portfolio-details">Journey By Train</Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 text-center">
-              <Link href="#" className="default-btn">
-                View More
-              </Link>
-            </div>
+          </div>
+          <div className="col-12 text-center">
+            <Link href="#" className="default-btn">
+              View More
+            </Link>
           </div>
         </div>
       </section>
