@@ -604,9 +604,9 @@ Nav Area Style
   height: 100%;
   width: 235px;
   transition: all 0.5s;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 15px;
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  font-size: 12px;
 }
 .navbar-area .others-option .search-form .form-control:focus {
   border: none;
