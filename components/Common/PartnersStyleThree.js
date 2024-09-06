@@ -6,7 +6,7 @@ import Image from "next/image";
 const PartnersStyleThree = () => {
   return (
     <>
-      <div className="partner-wrap bg-color ptb-100">
+      {/* <div className="partner-wrap bg-color ptb-100">
         <div className="container">
           <Swiper
             spaceBetween={30}
@@ -109,7 +109,7 @@ const PartnersStyleThree = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
+  const [email, setEmail] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!email) {
+      toast.error("Please enter your email.");
+      return;
+    }
+    toast.success("Email sent successfully! Please check your inbox.");
+    setEmail("");
+  };
   return (
     <>
       <footer className="footer-top-area">
@@ -44,18 +56,21 @@ const Footer = () => {
                   <h3 style={{ color: "#000", textAlign: "center" }}>
                     Subscribe Newsletter
                   </h3>
-                  <form className="newsletter-form">
+                  <form className="newsletter-form" onSubmit={handleSubmit}>
                     <input
                       type="email"
                       className="form-control"
                       placeholder="Enter email address"
                       name="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       required
                     />
                     <button className="send-btn" type="submit">
                       <i className="bx bx-right-arrow-alt"></i>
                     </button>
                   </form>
+                  <ToastContainer />
                 </div>
                 <ul className="social-wrap style-center">
                   <li>
@@ -135,7 +150,7 @@ const Footer = () => {
                   <li>
                     <Link href="#">
                       <Image
-                         src="/img/instagram1.jpg"
+                        src="/img/instagram1.jpg"
                         alt="Image"
                         width={88}
                         height={88}
@@ -155,7 +170,7 @@ const Footer = () => {
                   <li>
                     <Link href="#">
                       <Image
-                        src="/img/instagram3.jpeg"
+                        src="/img/latestNews1.jpg"
                         alt="Image"
                         width={88}
                         height={88}
@@ -165,7 +180,7 @@ const Footer = () => {
                   <li>
                     <Link href="#">
                       <Image
-                        src="/img/latestNews1.jpg"
+                        src="/img/instagram3.jpeg"
                         alt="Image"
                         width={88}
                         height={88}

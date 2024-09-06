@@ -21,7 +21,7 @@ const BlogSidebar = () => {
         </div>
 
         <div className="popular-post-wrap sidebar-widget">
-          <h3>Popular Post</h3>
+          <h3>Popular Videos</h3>
           <ul>
             <li>
               <Link href="/blog-details">

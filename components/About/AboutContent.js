@@ -49,7 +49,7 @@ const AboutContent = () => {
                 <div className="col-lg-6 col-sm-6 p-0">
                   <div className="about-grid-img">
                     <Image
-                      src="/img/about-grid/about-grid1.jpg"
+                      src="/img/news/news15.jpg"
                       alt="Image"
                       width={295}
                       height={246}
@@ -60,7 +60,7 @@ const AboutContent = () => {
                 <div className="col-lg-6 col-sm-6 p-0">
                   <div className="about-grid-img">
                     <Image
-                      src="/img/about-grid/about-grid2.jpg"
+                      src="/img/testimonial.jpeg"
                       alt="Image"
                       width={295}
                       height={246}
@@ -71,7 +71,7 @@ const AboutContent = () => {
                 <div className="col-lg-6 col-sm-6 p-0">
                   <div className="about-grid-img r-sm mb-0">
                     <Image
-                      src="/img/about-grid/about-grid3.jpg"
+                      src="/img/instagram3.jpeg"
                       alt="Image"
                       width={295}
                       height={246}
@@ -82,7 +82,7 @@ const AboutContent = () => {
                 <div className="col-lg-6 col-sm-6 p-0">
                   <div className="about-grid-img mb-0">
                     <Image
-                      src="/img/about-grid/about-grid4.jpg"
+                      src="/img/newsandmedia.jpeg"
                       alt="Image"
                       width={295}
                       height={246}

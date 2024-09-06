@@ -83,82 +83,6 @@ const TeamMember = () => {
                 </div>
               </div>
             </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-team">
-                <div className="team-img">
-                  <Image
-                    src="/img/team/arvindhh.jpg"
-                    alt="Image"
-                    width={385}
-                    height={450}
-                  />
-
-                  <ul className="social">
-                    <li>
-                      <a href="https://twitter.com/" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a href="https://instagram.com/" target="_blank">
-                        <i className="bx bxl-instagram"></i>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a href="https://facebook.com/" target="_blank">
-                        <i className="bx bxl-facebook"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="team-content">
-                  <h3>Arvind Kumar Yadav</h3>
-                  <span>Video Editor</span>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-team">
-                <div className="team-img">
-                  <Image
-                    src="/img/team/ronit.jpg"
-                    alt="Image"
-                    width={385}
-                    height={450}
-                  />
-
-                  <ul className="social">
-                    <li>
-                      <a href="https://twitter.com/" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a href="https://instagram.com/" target="_blank">
-                        <i className="bx bxl-instagram"></i>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a href="https://facebook.com/" target="_blank">
-                        <i className="bx bxl-facebook"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="team-content">
-                  <h3>Rounit Kumar</h3>
-                  <span>Assistant Editor</span>
-                </div>
-              </div>
-            </SwiperSlide>
-
             <SwiperSlide>
               <div className="single-team">
                 <div className="team-img">
@@ -307,6 +231,80 @@ const TeamMember = () => {
                 <div className="team-content">
                   <h3>Harsh Vardhan Singh</h3>
                   <span>Executive Program Producer</span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="single-team">
+                <div className="team-img">
+                  <Image
+                    src="/img/team/arvindhh.jpg"
+                    alt="Image"
+                    width={385}
+                    height={450}
+                  />
+
+                  <ul className="social">
+                    <li>
+                      <a href="https://twitter.com/" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://instagram.com/" target="_blank">
+                        <i className="bx bxl-instagram"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://facebook.com/" target="_blank">
+                        <i className="bx bxl-facebook"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="team-content">
+                  <h3>Arvind Kumar Yadav</h3>
+                  <span>Video Editor</span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="single-team">
+                <div className="team-img">
+                  <Image
+                    src="/img/team/contactImage.jpg"
+                    alt="Image"
+                    width={385}
+                    height={450}
+                  />
+
+                  <ul className="social">
+                    <li>
+                      <a href="https://twitter.com/" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://instagram.com/" target="_blank">
+                        <i className="bx bxl-instagram"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://facebook.com/" target="_blank">
+                        <i className="bx bxl-facebook"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="team-content">
+                  <h3>Rounit Kumar</h3>
+                  <span>Assistant Editor</span>
                 </div>
               </div>
             </SwiperSlide>

@@ -141,7 +141,7 @@ const TestimonialsCaed = () => {
             </div>
 
             {/* Pagination */}
-            <div className="col-lg-12 col-md-12">
+            {/* <div className="col-lg-12 col-md-12">
               <div className="pagination-area text-center">
                 <Link href="#" className="prev page-numbers">
                   <i className="bx bx-chevron-left"></i>
@@ -160,7 +160,7 @@ const TestimonialsCaed = () => {
                   <i className="bx bx-chevron-right"></i>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

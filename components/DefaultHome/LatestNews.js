@@ -34,7 +34,7 @@ const LatestNews = () => {
                     </li>
                     <li>
                       <i className="flaticon-calendar"></i>
-                      17/07/2023
+                      06/09/2024
                     </li>
                   </ul>
 
@@ -73,7 +73,7 @@ const LatestNews = () => {
                     </li>
                     <li>
                       <i className="flaticon-calendar"></i>
-                      18/07/2023
+                      06/09/2024
                     </li>
                   </ul>
 
@@ -115,7 +115,7 @@ const LatestNews = () => {
                     </li>
                     <li>
                       <i className="flaticon-calendar"></i>
-                      19/07/2023
+                      06/09/2014
                     </li>
                   </ul>
 

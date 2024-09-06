@@ -48,7 +48,7 @@ const BlogGrid = () => {
 
                     <li>
                       <i className="flaticon-calendar"></i>
-                      17/07/2023
+                      06/09/2024
                     </li>
                   </ul>
 
@@ -93,7 +93,7 @@ const BlogGrid = () => {
 
                     <li>
                       <i className="flaticon-calendar"></i>
-                      18/07/2023
+                      06/09/2024
                     </li>
                   </ul>
 
@@ -138,7 +138,7 @@ const BlogGrid = () => {
 
                     <li>
                       <i className="flaticon-calendar"></i>
-                      19/07/2023
+                      06/09/2024
                     </li>
                   </ul>
 
@@ -181,7 +181,7 @@ const BlogGrid = () => {
                     </li>
                     <li>
                       <i className="flaticon-calendar"></i>
-                      17/07/2023
+                      06/09/2024
                     </li>
                   </ul>
 
@@ -225,7 +225,7 @@ const BlogGrid = () => {
                     </li>
                     <li>
                       <i className="flaticon-calendar"></i>
-                      18/07/2023
+                      06/09/2024
                     </li>
                   </ul>
 
@@ -270,7 +270,7 @@ const BlogGrid = () => {
                     </li>
                     <li>
                       <i className="flaticon-calendar"></i>
-                      19/07/2023
+                      06/09/2024
                     </li>
                   </ul>
 
@@ -296,7 +296,7 @@ const BlogGrid = () => {
               </div>
             </div>
 
-            <div className="col-lg-12 col-md-12">
+            {/* <div className="col-lg-12 col-md-12">
               <div className="pagination-area text-center">
                 <Link href="/blog-details" className="prev page-numbers">
                   <i className="bx bx-chevron-left"></i>
@@ -320,7 +320,7 @@ const BlogGrid = () => {
                   <i className="bx bx-chevron-right"></i>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
