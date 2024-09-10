@@ -55,13 +55,16 @@ const SidebarModal = () => {
           <ul>
             <li>
               <i className="flaticon-pin"></i>
-              6890 Blvd, The Bronx, NY 1058 New York, USA
+              <span>
+                FC 14/15, Marwah Studios Complex, Film City,
+                <br /> Noida, U.P., India
+              </span>
             </li>
 
             <li>
               <i className="flaticon-email-1"></i>
               <a href="mailto:hello@vivi.com">info@mstv.co.in</a>
-              <a href="#">Skype: example</a>
+              {/* <a href="#">Skype: example</a> */}
             </li>
 
             <li>
@@ -148,17 +151,23 @@ const SidebarModal = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/" target="_blank">
+              <a
+                href="https://www.instagram.com/marwahstudios/"
+                target="_blank"
+              >
                 <i className="bx bxl-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/" target="_blank">
+              <a href="https://www.facebook.com/mstvnoida" target="_blank">
                 <i className="bx bxl-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/" target="_blank">
+              <a
+                href="https://www.youtube.com/@MarwahstudiosNoida"
+                target="_blank"
+              >
                 <i className="bx bxl-youtube"></i>
               </a>
             </li>

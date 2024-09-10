@@ -27,7 +27,7 @@ const LatestNews = () => {
                 </Link>
 
                 <div className="blog-content">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <i className="flaticon-user"></i>
                       <Link href="#">admin_mstv</Link>
@@ -37,7 +37,7 @@ const LatestNews = () => {
                         <i class="fas fa-comment"></i> 0 Comments
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
 
                   <Link href="/blog-details">
                     <h3>
@@ -72,7 +72,7 @@ const LatestNews = () => {
                 </Link>
 
                 <div className="blog-content">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <i className="flaticon-user"></i>
                       <Link href="#">admin_mstv</Link>
@@ -82,7 +82,7 @@ const LatestNews = () => {
                         <i class="fas fa-comment"></i> 0 Comments
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
 
                   <Link href="/blog-details">
                     <h3>
@@ -118,7 +118,7 @@ const LatestNews = () => {
                 </Link>
 
                 <div className="blog-content">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <i className="flaticon-user"></i>
                       <Link href="#">admin_mstv</Link>
@@ -128,7 +128,7 @@ const LatestNews = () => {
                         <i class="fas fa-comment"></i> 0 Comments
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
 
                   <Link href="/blog-details">
                     <h3>

@@ -6,7 +6,7 @@ import Image from "next/image";
 const Partners = () => {
   return (
     <>
-      <div
+      {/* <div
         className="partner-area ptb-100"
         style={{ backgroundImage: `url(/img/partner-bg.jpg)` }}
       >
@@ -112,7 +112,7 @@ const Partners = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

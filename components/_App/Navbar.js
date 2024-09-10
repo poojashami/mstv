@@ -528,12 +528,12 @@ const Navbar = () => {
                   </button>
                 </form>
 
-                <div className="cart-icon">
+                {/* <div className="cart-icon">
                   <Link href="/cart/">
                     <i className="flaticon-shopping-cart"></i>
                     <span>{products.length}</span>
                   </Link>
-                </div>
+                </div> */}
 
                 <div className="menu-icon">
                   <div className="burger-menu" onClick={toggleSidebarModal}>

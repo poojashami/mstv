@@ -10,7 +10,7 @@ const MaminBanner = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+        sources={["https://www.youtube.com/watch?v=4Jg4wplmsvk"]}
       />
 
       <div
@@ -38,7 +38,7 @@ const MaminBanner = () => {
                       JOIN <span style={{ color: "#ff0000" }}>MSTV</span> | HAR
                       PAL <span style={{ color: "#ff0000" }}>AAP K SATH</span>
                     </h1>
-                    <p>
+                    <p className="slider_p">
                       Get connected with MSTV Limited that can provide your
                       every technology need to connect the world.
                     </p>
@@ -51,7 +51,7 @@ const MaminBanner = () => {
 
         <div className="banner-img">
           <Image
-            src="/img/banner/banner2.jpg"
+            src="/img/banner/mstvBanner1.jpg"
             alt="Image"
             width={1290}
             height={870}

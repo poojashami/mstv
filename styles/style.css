@@ -105,7 +105,9 @@ p {
 p:last-child {
   margin-bottom: 0;
 }
-
+.slider_p {
+  color: white;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -295,7 +297,7 @@ Read More Area Style*/
   margin-bottom: 20px;
 }
 .section-title h2 {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 15px;
   position: relative;
   display: block;
@@ -1045,7 +1047,7 @@ What We Do Area Style
   margin-top: -6px;
 }
 .what-we-do-content h2 {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
 .what-we-do-content p {
@@ -1184,7 +1186,7 @@ Products Area Style
   margin-bottom: 20px;
 }
 .products-content h2 {
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 .products-content p {
@@ -1684,6 +1686,9 @@ Team Area Style
   opacity: 0;
   transition: all 0.5s;
 }
+.single-team .team-img:hover {
+  transform: scale(1.1);
+}
 .single-team .team-img .social {
   position: absolute;
   bottom: 30px;
@@ -2149,7 +2154,7 @@ About Area Two Style
   margin-bottom: 20px;
 }
 .about-area-two .about-content h2 {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
 .about-area-two .about-content p {
@@ -2426,7 +2431,7 @@ Banner Area Three Style
 }
 .banner-area .banner-text h1 {
   color: #ffffff;
-  font-size: 80px;
+  font-size: 70px;
 }
 .banner-area .banner-img {
   position: absolute;

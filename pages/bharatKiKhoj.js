@@ -1,29 +1,26 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import PortfolioCard from "../components/PortfolioColumnsThree/PortfolioCard";
 import Footer from "../components/_App/Footer";
-import HealYourLife from "../components/Highlight/HealYourLife";
+import BharatKiKhoj from "../components/Highlight/BharatKiKhoj";
 
-const PortfolioColumnsThree = () => {
+const BharatKiKhojPage = () => {
   return (
     <>
       <Navbar />
 
       <PageBanner
-        pageTitle="Heal You Life"
+        pageTitle="Bharat Ki Punar Khoj"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Heal You Life"
+        activePageText="Bharat Ki Punar Khoj"
         bgImg="/img/page-banner/page-banner17.jpg"
       />
-
-      {/* <PortfolioCard /> */}
-      <HealYourLife />
+      <BharatKiKhoj />
 
       <Footer />
     </>
   );
 };
 
-export default PortfolioColumnsThree;
+export default BharatKiKhojPage;

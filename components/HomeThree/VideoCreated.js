@@ -10,7 +10,7 @@ const VideoCreated = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+        sources={["https://www.youtube.com/watch?v=7TvQUUQVwNU"]}
       />
 
       <div className="video-created-area-three bg-color-two pb-100">
@@ -25,7 +25,7 @@ const VideoCreated = () => {
                   height={520}
                 />
 
-                <h3>Video Created By Vivi</h3>
+                {/* <h3>Video Created By Vivi</h3> */}
               </div>
             </div>
 

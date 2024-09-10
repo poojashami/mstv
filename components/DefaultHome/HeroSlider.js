@@ -33,7 +33,7 @@ const HeroSlider = () => {
                   <div className="container">
                     <div className="hero-slider-text one">
                       <h1>JOIN MSTV | HAR PAL AAP K SATH</h1>
-                      <p>
+                      <p className="slider_p">
                         Get connected with MSTV Limited that can provide your
                         every technology need to connect the world.
                       </p>
@@ -62,7 +62,7 @@ const HeroSlider = () => {
                   <div className="container">
                     <div className="hero-slider-text two">
                       <h1>JOIN MSTV | HAR PAL AAP K SATH</h1>
-                      <p>
+                      <p className="slider_p">
                         Get connected with MSTV Limited that can provide your
                         every technology need to connect the world.
                       </p>
@@ -91,7 +91,7 @@ const HeroSlider = () => {
                   <div className="container">
                     <div className="hero-slider-text three">
                       <h1>JOIN MSTV | HAR PAL AAP K SATH</h1>
-                      <p>
+                      <p className="slider_p">
                         Get connected with MSTV Limited that can provide your
                         every technology need to connect the world.
                       </p>

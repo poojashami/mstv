@@ -73,7 +73,8 @@ const ContactForm = () => {
                   <i className="flaticon-pin"></i>
                   Address:
                   <span>
-                    6890 Blvd, The Bronx, NY 1058 <br /> New York, USA
+                    FC 14/15, Marwah Studios Complex, Film City,
+                    <br /> Noida, U.P., India
                   </span>
                 </li>
               </ul>
@@ -86,17 +87,23 @@ const ContactForm = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/marwahstudios/"
+                    target="_blank"
+                  >
                     <i className="bx bxl-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/" target="_blank">
+                  <a href="https://www.facebook.com/mstvnoida" target="_blank">
                     <i className="bx bxl-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/" target="_blank">
+                  <a
+                    href="https://www.youtube.com/@MarwahstudiosNoida"
+                    target="_blank"
+                  >
                     <i className="bx bxl-youtube"></i>
                   </a>
                 </li>

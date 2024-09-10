@@ -1,29 +1,26 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import PortfolioCard from "../components/PortfolioColumnsThree/PortfolioCard";
 import Footer from "../components/_App/Footer";
-import HealYourLife from "../components/Highlight/HealYourLife";
+import Kalasangam from "../components/Highlight/Kalasangam";
 
-const PortfolioColumnsThree = () => {
+const KalaSangamPage = () => {
   return (
     <>
       <Navbar />
 
       <PageBanner
-        pageTitle="Heal You Life"
+        pageTitle="Kala Sangam"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Heal You Life"
+        activePageText="Kala Sangam"
         bgImg="/img/page-banner/page-banner17.jpg"
       />
-
-      {/* <PortfolioCard /> */}
-      <HealYourLife />
+      <Kalasangam />
 
       <Footer />
     </>
   );
 };
 
-export default PortfolioColumnsThree;
+export default KalaSangamPage;

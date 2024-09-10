@@ -50,6 +50,43 @@ const TeamMember = () => {
               <div className="single-team">
                 <div className="team-img">
                   <Image
+                    src="/img/team/marwah.png"
+                    alt="Image"
+                    width={385}
+                    height={450}
+                  />
+
+                  <ul className="social">
+                    <li>
+                      <a href="https://twitter.com/" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://instagram.com/" target="_blank">
+                        <i className="bx bxl-instagram"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://facebook.com/" target="_blank">
+                        <i className="bx bxl-facebook"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="team-content">
+                  <h3>Dr. Sandeep Marwah</h3>
+                  <span>Chancellor, AAFT university of Media and Arts</span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="single-team">
+                <div className="team-img">
+                  <Image
                     src="/img/team/sushil.png"
                     alt="Image"
                     width={385}

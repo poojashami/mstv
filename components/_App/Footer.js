@@ -79,17 +79,26 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a
+                      href="https://www.instagram.com/marwahstudios/"
+                      target="_blank"
+                    >
                       <i class="bx bxl-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a
+                      href="https://www.facebook.com/mstvnoida"
+                      target="_blank"
+                    >
                       <i class="bx bxl-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a
+                      href="https://www.youtube.com/@MarwahstudiosNoida"
+                      target="_blank"
+                    >
                       <i class="bx bxl-youtube"></i>
                     </a>
                   </li>
@@ -125,19 +134,19 @@ const Footer = () => {
                 <h3>Highlights</h3>
                 <ul className="additional-link">
                   <li>
-                    <Link href="#">Roobaroo</Link>
+                    <Link href="/roobaroo">Roobaroo</Link>
                   </li>
                   <li>
-                    <Link href="#">Bharat ki Punar Khoj</Link>
+                    <Link href="/bharatKiKhoj">Bharat ki Punar Khoj</Link>
                   </li>
                   <li>
-                    <Link href="#">The Real Talk</Link>
+                    <Link href="/theRealTalk">The Real Talk</Link>
                   </li>
                   <li>
-                    <Link href="#">Kala Sangam</Link>
+                    <Link href="/kalaSangam">Kala Sangam</Link>
                   </li>
                   <li>
-                    <Link href="#">Heal Your Life</Link>
+                    <Link href="/healYourLife">Heal Your Life</Link>
                   </li>
                 </ul>
               </div>
