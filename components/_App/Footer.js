@@ -32,8 +32,8 @@ const Footer = () => {
                       <Image
                         src="/img/logomstv.png"
                         alt="Image"
-                        width={90}
-                        height={33}
+                        width={120}
+                        height={40}
                       />
                     </Link>
                   </div>

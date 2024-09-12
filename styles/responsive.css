@@ -712,7 +712,14 @@
   .product-details-area .product-details-desc .product-add-to-cart h3 {
     font-size: 15px;
   }
-  .product-details-area .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item {
+  .product-details-area
+    .products-details-tab
+    .tab_content
+    .tabs_item
+    .products-details-tab-content
+    .product-review-form
+    .review-comments
+    .review-item {
     margin-top: 30px;
     position: relative;
     padding-right: 0;
@@ -818,10 +825,23 @@
   .product-details-area .products-details-tab .tab-content {
     padding: 20px;
   }
-  .product-details-area .products-details-tab .tab-content .tabs-item .products-details-tab-content .product-review-form .review-comments {
+  .product-details-area
+    .products-details-tab
+    .tab-content
+    .tabs-item
+    .products-details-tab-content
+    .product-review-form
+    .review-comments {
     margin-top: 25px;
   }
-  .product-details-area .products-details-tab .tab-content .tabs-item .products-details-tab-content .product-review-form .review-comments .review-item {
+  .product-details-area
+    .products-details-tab
+    .tab-content
+    .tabs-item
+    .products-details-tab-content
+    .product-review-form
+    .review-comments
+    .review-item {
     margin-top: 20px;
     padding-right: 40px;
     padding-top: 20px;
@@ -866,6 +886,11 @@
   }
   .update-cart-btn .default-btn {
     display: block;
+  }
+}
+@media (max-width: 768px) {
+  .menu-icon {
+    display: none;
   }
 }
 /* Min width 414px to Max width 767px */
@@ -1769,7 +1794,14 @@
     margin-top: 10px;
     width: 100%;
   }
-  .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+  .navbar-area
+    .main-nav
+    nav
+    .navbar-nav
+    .nav-item
+    .dropdown-menu
+    li
+    .dropdown-menu {
     position: relative;
     opacity: 1 !important;
     visibility: visible !important;
@@ -1806,4 +1838,4 @@
   .navbar-area .others-option .menu-icon {
     margin-left: 25px;
   }
-}/*# sourceMappingURL=responsive.css.map */
+} /*# sourceMappingURL=responsive.css.map */

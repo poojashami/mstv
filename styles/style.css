@@ -284,7 +284,7 @@ Read More Area Style*/
 
 /* Section Title Area Style */
 .section-title {
-  max-width: 750px;
+  max-width: 890px;
   margin: -6px auto 50px;
   text-align: center;
   position: relative;
@@ -667,7 +667,11 @@ Nav Area Style
 .navbar-area .others-option .menu-icon .burger-menu:hover i {
   color: #272b2b;
 }
-
+@media (max-width: 768px) {
+  .navbar-area .others-option .menu-icon .burger-menu i {
+    display: none;
+  }
+}
 .navbar-toggler {
   border: none;
   background: #eee !important;
@@ -1060,7 +1064,7 @@ What We Do Area Style
   position: absolute;
   top: 10px;
   left: -100px;
-  width: 70px;
+  width: 50px;
   height: 1px;
   background-color: #272b2b;
 }
@@ -1543,6 +1547,7 @@ Latest Trailer Area Style
   font-size: 50px;
   padding-left: 5px;
   cursor: pointer;
+  display: none;
 }
 .latest-trailer-item .caption .play-video:hover {
   background-color: #ff0000;
@@ -2418,7 +2423,7 @@ Banner Area Three Style
   cursor: pointer;
 }
 .banner-area .banner-video .play-video i {
-  font-size: 100px;
+  font-size: 70px;
   color: #ffffff;
   transition: all 0.5s;
 }
@@ -2486,7 +2491,7 @@ Video Created Area Three Style
   align-items: center;
   display: flex;
   color: #ffffff;
-  font-size: 100px;
+  font-size: 70px;
   cursor: pointer;
 }
 
@@ -2581,7 +2586,7 @@ What We Do Area Three Style
   color: #ffffff;
 }
 .what-we-do-area.three .what-we-do-content p::before {
-  background-color: #ffffff;
+  background-color: #ff0000;
 }
 .what-we-do-area.three .what-we-do-content .brand-wrap .brand a {
   position: relative;
@@ -3204,22 +3209,24 @@ Bio Data Area Style
 .bio-data .about-content {
   position: relative;
 }
-.bio-data .about-content h5 {
+.bio-data .about-content h6 {
   position: relative;
-  padding-left: 100px;
-  font-size: 18px;
+  padding-left: 70px;
+  font-size: 14px;
+  text-align: justify;
 }
-.bio-data .about-content h5::before {
+.bio-data .about-content h6::before {
   content: "";
   position: absolute;
   top: 10px;
-  left: 0;
-  width: 70px;
+  left: 24px;
+  width: 30px;
   height: 2px;
-  background-color: #272b2b;
+  background-color: #ff0000;
 }
 .bio-data .about-content p {
   padding-left: 100px;
+  text-align: justify;
 }
 .bio-data .about-grid-img {
   margin-bottom: 15px;

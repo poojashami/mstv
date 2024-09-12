@@ -26,15 +26,15 @@ const AboutContent = () => {
                   them.
                 </p>
 
-                <h5 className="mt-30">
+                <h6 className="mt-30">
                   MSTV Internet is providing one of the fastest internet
-                </h5>
-                <h5 className="mt-30">
+                </h6>
+                <h6 className="mt-30">
                   Reliable for both gamers and regular users.
-                </h5>
-                <h5 className="mt-30">
+                </h6>
+                <h6 className="mt-30">
                   Get a dedicated server hosted on your end
-                </h5>
+                </h6>
                 {/* <p>
                   Video production work with producing video content. It is the
                   analogical of film making, but the images are digitally

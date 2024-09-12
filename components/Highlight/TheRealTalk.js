@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import Link from "next/link";
+import UpcomingMovies from "../HomeThree/UpcomingMovies";
 
 const TheRealTalk = () => {
   // if toggler is updated when lightbox is closed it will open it
@@ -288,13 +289,16 @@ const TheRealTalk = () => {
               </div>
             </div>
 
-            <div className="col-12 text-center">
+            {/* <div className="col-12 text-center">
               <Link href="#" className="default-btn">
                 View More
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
+      </section>
+      <section>
+        <UpcomingMovies />
       </section>
     </>
   );

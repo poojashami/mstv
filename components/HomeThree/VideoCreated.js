@@ -10,7 +10,9 @@ const VideoCreated = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=7TvQUUQVwNU"]}
+        sources={[
+          "https://www.youtube.com/embed/7TvQUUQVwNU?autoplay=1&mute=1",
+        ]}
       />
 
       <div className="video-created-area-three bg-color-two pb-100">

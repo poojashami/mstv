@@ -10,12 +10,14 @@ const MaminBanner = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=4Jg4wplmsvk"]}
+        sources={[
+          "https://www.youtube.com/embed/4Jg4wplmsvk?autoplay=1&mute=1",
+        ]}
       />
 
       <div
         className="banner-area jarallax"
-        style={{ backgroundImage: `url(/img/banner/banner1.jpg)` }}
+        style={{ backgroundImage: `url(/img/banner/mstvBanner1.jpg)` }}
       >
         <div className="d-table">
           <div className="d-table-cell">

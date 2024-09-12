@@ -312,7 +312,7 @@ const TeamMember = () => {
               <div className="single-team">
                 <div className="team-img">
                   <Image
-                    src="/img/team/contactImage.jpg"
+                    src="/img/team/ronitti.jpg"
                     alt="Image"
                     width={385}
                     height={450}
