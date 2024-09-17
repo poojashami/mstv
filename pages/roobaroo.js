@@ -10,10 +10,10 @@ const RoobarooPage = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Roobaroo"
+        pageTitle="Rubaroo"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Roobaroo"
+        activePageText="Rubaroo"
         bgImg="/img/page-banner/page-banner17.jpg"
       />
       <Roobaroo />

@@ -2,20 +2,18 @@ import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
-import AuthorSection from "./AuthorSection";
 
-const TeamMember = () => {
+const AuthorSection = () => {
   return (
     <>
-      <AuthorSection />
       <section
         className="team-area-three pt-100 pb-70 jarallax"
         style={{ backgroundImage: `url(/img/team-bg.jpg)` }}
       >
         <div className="container">
           <div className="section-title white-title">
-            <span style={{ color: "#ff0000" }}>Our Team</span>
-            <h2>Meet The Team</h2>
+            <span style={{ color: "#ff0000" }}>The Founder</span>
+            <h2>Management Team</h2>
           </div>
           <Swiper
             spaceBetween={0}
@@ -52,7 +50,7 @@ const TeamMember = () => {
               <div className="single-team">
                 <div className="team-img">
                   <Image
-                    src="/img/team/harsh.png"
+                    src="/img/team/marwah.png"
                     alt="Image"
                     width={385}
                     height={450}
@@ -86,51 +84,8 @@ const TeamMember = () => {
                 </div>
 
                 <div className="team-content">
-                  <h3>Harsh Vardhan Singh</h3>
-                  <span>Executive Program Producer</span>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single-team">
-                <div className="team-img">
-                  <Image
-                    src="/img/team/shubham.png"
-                    alt="Image"
-                    width={385}
-                    height={450}
-                  />
-
-                  <ul className="social">
-                    <li>
-                      <a href="https://twitter.com/" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        href="https://www.instagram.com/marwahstudios/"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-instagram"></i>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        href="https://www.facebook.com/mstvnoida"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-facebook"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="team-content">
-                  <h3>Shubham Tanwar</h3>
-                  <span>Cameraman</span>
+                  <h3>Dr. Sandeep Marwah</h3>
+                  <span>Chancellor, AAFT university of Media and Arts</span>
                 </div>
               </div>
             </SwiperSlide>
@@ -139,7 +94,7 @@ const TeamMember = () => {
               <div className="single-team">
                 <div className="team-img">
                   <Image
-                    src="/img/team/arvindhh.jpg"
+                    src="/img/team/mohit.png"
                     alt="Image"
                     width={385}
                     height={450}
@@ -173,8 +128,52 @@ const TeamMember = () => {
                 </div>
 
                 <div className="team-content">
-                  <h3>Arvind Kumar Yadav</h3>
-                  <span>Video Editor</span>
+                  <h3>Mohit Marwah</h3>
+                  <span>Vice President AEG</span>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="single-team">
+                <div className="team-img">
+                  <Image
+                    src="/img/team/akshay.png"
+                    alt="Image"
+                    width={385}
+                    height={450}
+                  />
+
+                  <ul className="social">
+                    <li>
+                      <a href="https://twitter.com/" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.instagram.com/marwahstudios/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-instagram"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.facebook.com/mstvnoida"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-facebook"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="team-content">
+                  <h3>Akshay Marwah</h3>
+                  <span>CEO, Asian Education Group</span>
                 </div>
               </div>
             </SwiperSlide>
@@ -182,7 +181,7 @@ const TeamMember = () => {
               <div className="single-team">
                 <div className="team-img">
                   <Image
-                    src="/img/team/ronitti.jpg"
+                    src="/img/team/sushil.png"
                     alt="Image"
                     width={385}
                     height={450}
@@ -216,8 +215,8 @@ const TeamMember = () => {
                 </div>
 
                 <div className="team-content">
-                  <h3>Rounit Kumar</h3>
-                  <span>Assistant Editor</span>
+                  <h3>Sushil Bharti</h3>
+                  <span>Director, Broadcasting</span>
                 </div>
               </div>
             </SwiperSlide>
@@ -383,4 +382,4 @@ const TeamMember = () => {
   );
 };
 
-export default TeamMember;
+export default AuthorSection;

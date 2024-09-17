@@ -19,11 +19,12 @@ const Comments = () => {
             <h3>Lorna Smith</h3>
             <span>Movie Editor</span>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              necessitatibus fuga ab eveniet, similique eveniet itaque molestias
-              dolor iure error, dignissimos culpa sapiente repudiandae cumque
-              ratione omnis sit? Nostrum, in eveniet itaque molestias similique
-              eveniet dolor.
+              MSTV is not just about entertainment; it's also a source of
+              knowledge and enlightenment. The channel's thought-provoking
+              documentaries delve into various subjects, from history and
+              science to culture and society. These documentaries provide
+              viewers with valuable insights and perspectives, fostering a sense
+              of curiosity and understanding about the world around them.
             </p>
 
             <Link href="#">
@@ -42,11 +43,12 @@ const Comments = () => {
             <h3>Phyllis Trimble</h3>
             <span>Director</span>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              necessitatibus fuga ab eveniet, similique eveniet itaque molestias
-              dolor iure error, dignissimos culpa sapiente repudiandae cumque
-              ratione omnis sit? Nostrum, in eveniet itaque molestias similique
-              eveniet dolor.
+              MSTV is not just about entertainment; it's also a source of
+              knowledge and enlightenment. The channel's thought-provoking
+              documentaries delve into various subjects, from history and
+              science to culture and society. These documentaries provide
+              viewers with valuable insights and perspectives, fostering a sense
+              of curiosity and understanding about the world around them.
             </p>
 
             <Link href="#">
@@ -57,7 +59,7 @@ const Comments = () => {
         </ul>
       </div>
 
-      <div className="leave-reply-wrap">
+      {/* <div className="leave-reply-wrap">
         <h3>Leave A Reply</h3>
         <p>
           Your email address will not be published. Required fields are marked*
@@ -138,7 +140,7 @@ const Comments = () => {
             </div>
           </div>
         </form>
-      </div>
+      </div> */}
     </>
   );
 };

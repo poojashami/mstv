@@ -33,11 +33,12 @@ const BlogDetailsContent = () => {
           <h3>Videojjgjkg Production Services Your Business Must Have</h3>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor.
+            MSTV is not just about entertainment; it's also a source of
+            knowledge and enlightenment. The channel's thought-provoking
+            documentaries delve into various subjects, from history and science
+            to culture and society. These documentaries provide viewers with
+            valuable insights and perspectives, fostering a sense of curiosity
+            and understanding about the world around them.
           </p>
 
           <p>
@@ -54,21 +55,22 @@ const BlogDetailsContent = () => {
           <blockquote>
             <i className="flaticon-quote"></i>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              delectus ratione cupiditate impedit nihil natus? Excepturi, totam
-              perspiciatis magni, officiis reiciendis adipisci, nobis sint neque
-              optio ut perferendis praesentium vitae amet consectetur
-              adipisicing.
+              MSTV is not just about entertainment; it's also a source of
+              knowledge and enlightenment. The channel's thought-provoking
+              documentaries delve into various subjects, from history and
+              science to culture and society. These documentaries provide
+              viewers with valuable insights and perspectives, fostering a sense
+              of curiosity and understanding about the world around them.
             </p>
           </blockquote>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore dolore magna aliqua. Quis ipsum
-            suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis. At vero eos et accusam et justo duo
-            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-            sanctus est Lorem ipsum dolor sit amet consectetur adipiscing.
+            MSTV is not just about entertainment; it's also a source of
+            knowledge and enlightenment. The channel's thought-provoking
+            documentaries delve into various subjects, from history and science
+            to culture and society. These documentaries provide viewers with
+            valuable insights and perspectives, fostering a sense of curiosity
+            and understanding about the world around them.
           </p>
         </div>
 

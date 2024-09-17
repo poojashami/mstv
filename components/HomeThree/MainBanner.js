@@ -36,9 +36,13 @@ const MaminBanner = () => {
 
                 <div className="col-lg-6">
                   <div className="banner-text">
+                    {/* style={{ textAlign: "center" }} */}
                     <h1>
-                      JOIN <span style={{ color: "#ff0000" }}>MSTV</span> | HAR
-                      PAL <span style={{ color: "#ff0000" }}>AAP K SATH</span>
+                      JOIN <span style={{ color: "#ff0000" }}>MSTV</span>
+                    </h1>
+                    <h1>
+                      HAR PAL{" "}
+                      <span style={{ color: "#ff0000" }}>AAP Ke SATH</span>
                     </h1>
                     <p className="slider_p">
                       Get connected with MSTV Limited that can provide your

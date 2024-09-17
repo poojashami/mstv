@@ -2436,7 +2436,7 @@ Banner Area Three Style
 }
 .banner-area .banner-text h1 {
   color: #ffffff;
-  font-size: 70px;
+  font-size: 60px;
 }
 .banner-area .banner-img {
   position: absolute;
@@ -5355,6 +5355,43 @@ Preloader Area Style*/
   100% {
     transform: rotate(-360deg);
   }
+}
+button.our-ott-btn {
+  background-color: #ff0000;
+  color: white;
+  box-shadow: 5px 4px 6px #551414;
+}
+.whatspp-btn {
+  position: fixed;
+  cursor: pointer;
+  bottom: 70px;
+  border-radius: 10px;
+  left: 20px;
+  z-index: 999;
+  /* width: 80px; */
+  text-align: center;
+  /* height: 35px;
+  line-height: 35px; */
+  transition: 0.9s;
+  box-shadow: 2px 2px 5px #16a085;
+}
+.go-our-ott {
+  position: fixed;
+  cursor: pointer;
+  bottom: 70px;
+  border-radius: 10px;
+  right: 20px;
+  /* background-color: #272b2b; */
+  z-index: 999;
+
+  width: 80px;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+  transition: 0.9s;
+}
+.our-ott-btn {
+  border-radius: 5px;
 }
 /* Go Top Style */
 .go-top {

@@ -105,50 +105,52 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-widget">
-                <h3>Useful Links</h3>
-                <ul className="address">
-                  <li>
-                    <Link href="#">About Us</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Our Program</Link>
-                  </li>
-                  <li>
-                    <Link href="#">MSTV Videos</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Testimonial</Link>
-                  </li>
-                  <li>
-                    <Link href="#">News & Media</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-widget">
-                <h3>Highlights</h3>
-                <ul className="additional-link">
-                  <li>
-                    <Link href="/roobaroo">Roobaroo</Link>
-                  </li>
-                  <li>
-                    <Link href="/bharatKiKhoj">Bharat ki Punar Khoj</Link>
-                  </li>
-                  <li>
-                    <Link href="/theRealTalk">The Real Talk</Link>
-                  </li>
-                  <li>
-                    <Link href="/kalaSangam">Kala Sangam</Link>
-                  </li>
-                  <li>
-                    <Link href="/healYourLife">Heal Your Life</Link>
-                  </li>
-                </ul>
+            <div className="col-lg-6 col-md-6">
+              <div className="row">
+                <div className="col-lg-6 col-md-6 col-6">
+                  <div className="single-widget">
+                    <h3>Useful Links</h3>
+                    <ul className="address">
+                      <li>
+                        <Link href="#">About Us</Link>
+                      </li>
+                      <li>
+                        <Link href="#">Our Program</Link>
+                      </li>
+                      <li>
+                        <Link href="#">MSTV Videos</Link>
+                      </li>
+                      <li>
+                        <Link href="#">Testimonial</Link>
+                      </li>
+                      <li>
+                        <Link href="#">News & Media</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-6">
+                  <div className="single-widget">
+                    <h3>Highlights</h3>
+                    <ul className="additional-link">
+                      <li>
+                        <Link href="/roobaroo">Rubaroo</Link>
+                      </li>
+                      <li>
+                        <Link href="/bharatKiKhoj">Bharat ki Punar Khoj</Link>
+                      </li>
+                      <li>
+                        <Link href="/theRealTalk">The Real Talk</Link>
+                      </li>
+                      <li>
+                        <Link href="/kalaSangam">Kala Sangam</Link>
+                      </li>
+                      <li>
+                        <Link href="/healYourLife">Heal Your Life</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
 

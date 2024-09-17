@@ -29,10 +29,10 @@ const UpcomingMovies = () => {
 
   const movieTitles = [
     "The Real Talk",
-    "Bharat Ki Punar Knoj",
+    "Bharat Ki Punar Khoj",
     "Heal Your Life",
     "Kala Sangam",
-    "Roobaroo",
+    "Rubaroo",
   ];
 
   const movieTime = [
@@ -55,7 +55,7 @@ const UpcomingMovies = () => {
           <div className="section-title white-title">
             <span style={{ color: "#ff0000" }}>MSTV Featured Program</span>
             <h2>
-              MSTV Featured Program shows Documentaries & movies without
+              MSTV Featured Program shows, Documentaries & movies without
               buffering
             </h2>
           </div>

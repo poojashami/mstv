@@ -31,7 +31,7 @@ const BlogSidebar = () => {
                   width={180}
                   height={100}
                 />
-                <h3>Roobaroo</h3>
+                <h3>Rubaroo</h3>
                 <span>June 27, 2023</span>
               </Link>
             </li>
@@ -43,7 +43,7 @@ const BlogSidebar = () => {
                   width={180}
                   height={100}
                 />
-                <h3>Bharat ki Khoj</h3>
+                <h3>Bharat ki Punar Khoj</h3>
                 <span>June 26, 2023</span>
               </Link>
             </li>
@@ -70,10 +70,10 @@ const BlogSidebar = () => {
               <Link href="/blog-grid">Upcoming News</Link>
             </li>
             <li>
-              <Link href="/blog-grid">Roobaroo</Link>
+              <Link href="/blog-grid">Rubaroo</Link>
             </li>
             <li>
-              <Link href="/blog-grid">Bharat ki Khoj</Link>
+              <Link href="/blog-grid">Bharat ki Punar Khoj</Link>
             </li>
             <li>
               <Link href="/blog-grid">The Real Talk</Link>
