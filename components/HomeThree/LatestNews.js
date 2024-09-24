@@ -17,7 +17,7 @@ const LatestNews = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link href="/event-details">
                   <Image
                     src="/img/blog/latestNew.jpg"
                     alt="Image"
@@ -39,7 +39,7 @@ const LatestNews = () => {
                     </li>
                   </ul> */}
 
-                  <Link href="/blog-details">
+                  <Link href="/event-details">
                     <h3>
                       AAFT and ICMEI Celebrate 78th Independence Day with
                       Patriotic Fervor at Noida Film City
@@ -53,7 +53,7 @@ const LatestNews = () => {
                     City.
                   </p>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link href="/event-details" className="read-more">
                     Read More
                   </Link>
                 </div>
@@ -62,7 +62,7 @@ const LatestNews = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link href="/event-details">
                   <Image
                     src="/img/blog/latestnews2.jpg"
                     alt="Image"
@@ -84,7 +84,7 @@ const LatestNews = () => {
                     </li>
                   </ul> */}
 
-                  <Link href="/blog-details">
+                  <Link href="/event-details">
                     <h3>
                       Dr. Sandeep Marwah Honored with Bharat Ratan Dr. Abdul
                       Kalam Global Award 2024 for World Peace
@@ -99,7 +99,7 @@ const LatestNews = () => {
                     bringing love, peace, and unity through art.
                   </p>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link href="/event-details" className="read-more">
                     Read More
                   </Link>
                 </div>
@@ -108,7 +108,7 @@ const LatestNews = () => {
 
             <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link href="/event-details">
                   <Image
                     src="/img/blog/latestNews3.jpg"
                     alt="Image"
@@ -130,7 +130,7 @@ const LatestNews = () => {
                     </li>
                   </ul> */}
 
-                  <Link href="/blog-details">
+                  <Link href="/event-details">
                     <h3>
                       WPDRF and Brahma Kumaris Unite to Promote Indian Festivals
                       and Cultural Traditions
@@ -144,7 +144,7 @@ const LatestNews = () => {
                     association with Brahma Kumaris.
                   </p>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link href="/event-details" className="read-more">
                     Read More
                   </Link>
                 </div>

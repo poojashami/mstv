@@ -30,7 +30,7 @@ const BlogGrid = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link href="/program-details">
                   <Image
                     src="/img/news/news4.jpg"
                     alt="Image"
@@ -52,7 +52,7 @@ const BlogGrid = () => {
                     </li>
                   </ul>
 
-                  <Link href="/blog-details">
+                  <Link href="/program-details">
                     <h3>
                       Swapnil Rai Presents “Networked Bollywood” to Sandeep
                       Marwah at Marwah Studios
@@ -66,7 +66,7 @@ const BlogGrid = () => {
                     newly published book
                   </p>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link href="/program-details" className="read-more">
                     Read More
                   </Link>
                 </div>
@@ -75,7 +75,7 @@ const BlogGrid = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link href="/program-details">
                   <Image
                     src="/img/news/news5.jpg"
                     alt="Image"
@@ -97,7 +97,7 @@ const BlogGrid = () => {
                     </li>
                   </ul>
 
-                  <Link href="/blog-details">
+                  <Link href="/program-details">
                     <h3>
                       AAFT Celebrates Raksha Bandhan with Members of Brahma
                       Kumaris at Marwah Studios
@@ -111,7 +111,7 @@ const BlogGrid = () => {
                     Film City.
                   </p>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link href="/program-details" className="read-more">
                     Read More
                   </Link>
                 </div>
@@ -120,7 +120,7 @@ const BlogGrid = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link href="/program-details">
                   <Image
                     src="/img/news/news14.jpg"
                     alt="Image"
@@ -142,7 +142,7 @@ const BlogGrid = () => {
                     </li>
                   </ul>
 
-                  <Link href="/blog-details">
+                  <Link href="/program-details">
                     <h3>World Photography Day Celebrated at AAFT</h3>
                   </Link>
 
@@ -155,7 +155,7 @@ const BlogGrid = () => {
                     rich history and evolving trends in the field.
                   </p>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link href="/program-details" className="read-more">
                     Read More
                   </Link>
                 </div>
@@ -164,7 +164,7 @@ const BlogGrid = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link href="/program-details">
                   <Image
                     src="/img/news/news2.jpg"
                     alt="Image"
@@ -185,7 +185,7 @@ const BlogGrid = () => {
                     </li>
                   </ul>
 
-                  <Link href="/blog-details">
+                  <Link href="/program-details">
                     <h3>
                       Bharat Ratna Atal Bihari Vajpayee Remembered at AAFT
                     </h3>
@@ -199,7 +199,7 @@ const BlogGrid = () => {
                     his death anniversary.
                   </p>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link href="/program-details" className="read-more">
                     Read More
                   </Link>
                 </div>
@@ -208,7 +208,7 @@ const BlogGrid = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link href="/program-details">
                   <Image
                     src="/img/news/news8.jpg"
                     alt="Image"
@@ -229,7 +229,7 @@ const BlogGrid = () => {
                     </li>
                   </ul>
 
-                  <Link href="/blog-details">
+                  <Link href="/program-details">
                     <h3>
                       ICMEI Congratulates the Republic of Congo on its
                       Independence Day
@@ -244,7 +244,7 @@ const BlogGrid = () => {
                     the occasion of their Independence Day.
                   </p>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link href="/program-details" className="read-more">
                     Read More
                   </Link>
                 </div>
@@ -253,7 +253,7 @@ const BlogGrid = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link href="/program-details">
                   <Image
                     src="/img/news/news15.jpg"
                     alt="Image"
@@ -274,7 +274,7 @@ const BlogGrid = () => {
                     </li>
                   </ul>
 
-                  <Link href="/blog-details">
+                  <Link href="/program-details">
                     <h3>
                       ICMEI Congratulates Estonia on the Day of Restoration of
                       Independence
@@ -289,7 +289,7 @@ const BlogGrid = () => {
                     the Day of Restoration of Independence.
                   </p>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link href="/program-details" className="read-more">
                     Read More
                   </Link>
                 </div>
@@ -298,25 +298,25 @@ const BlogGrid = () => {
 
             {/* <div className="col-lg-12 col-md-12">
               <div className="pagination-area text-center">
-                <Link href="/blog-details" className="prev page-numbers">
+                <Link href="/program-details" className="prev page-numbers">
                   <i className="bx bx-chevron-left"></i>
                 </Link>
 
                 <span className="page-numbers current">1</span>
 
-                <Link href="/blog-details" className="page-numbers">
+                <Link href="/program-details" className="page-numbers">
                   2
                 </Link>
 
-                <Link href="/blog-details" className="page-numbers">
+                <Link href="/program-details" className="page-numbers">
                   3
                 </Link>
 
-                <Link href="/blog-details" className="page-numbers">
+                <Link href="/program-details" className="page-numbers">
                   4
                 </Link>
 
-                <Link href="/blog-details" className="next page-numbers">
+                <Link href="/program-details" className="next page-numbers">
                   <i className="bx bx-chevron-right"></i>
                 </Link>
               </div>

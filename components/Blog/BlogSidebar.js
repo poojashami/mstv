@@ -21,7 +21,7 @@ const BlogSidebar = () => {
         </div>
 
         <div className="popular-post-wrap sidebar-widget">
-          <h3>Popular Videos</h3>
+          <h3>Category</h3>
           <ul>
             <li>
               <Link href="/blog-details">
@@ -62,7 +62,7 @@ const BlogSidebar = () => {
           </ul>
         </div>
 
-        <div className="categories-wrap sidebar-widget">
+        {/* <div className="categories-wrap sidebar-widget">
           <h3>Categories</h3>
 
           <ul>
@@ -91,7 +91,7 @@ const BlogSidebar = () => {
               <Link href="/blog-grid">Video</Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="about-wrap sidebar-widget">
           <h3>About</h3>
@@ -109,7 +109,7 @@ const BlogSidebar = () => {
             world
           </p>
         </div>
-
+        {/* 
         <div className="tags-wrap sidebar-widget">
           <h3>Tags</h3>
 
@@ -139,7 +139,7 @@ const BlogSidebar = () => {
               <Link href="/blog-grid">Production</Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );

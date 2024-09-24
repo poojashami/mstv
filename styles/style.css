@@ -1868,6 +1868,7 @@ Footer Top Area Style
   margin-bottom: 20px;
   border: none;
   padding-bottom: 0;
+  text-transform: unset;
 }
 .single-widget.bg-white.whitebg {
   padding: 20px;
@@ -5360,18 +5361,16 @@ button.our-ott-btn {
   background-color: #ff0000;
   color: white;
   box-shadow: 5px 4px 6px #551414;
+  font-family: none;
 }
 .whatspp-btn {
   position: fixed;
   cursor: pointer;
   bottom: 70px;
   border-radius: 10px;
-  left: 20px;
+  right: 20px;
   z-index: 999;
-  /* width: 80px; */
   text-align: center;
-  /* height: 35px;
-  line-height: 35px; */
   transition: 0.9s;
   box-shadow: 2px 2px 5px #16a085;
 }
@@ -5380,10 +5379,9 @@ button.our-ott-btn {
   cursor: pointer;
   bottom: 70px;
   border-radius: 10px;
-  right: 20px;
-  /* background-color: #272b2b; */
+  right: 6px;
+  top: 79px;
   z-index: 999;
-
   width: 80px;
   text-align: center;
   height: 35px;

@@ -9,7 +9,7 @@ const BlogDetailsContent = () => {
       <div className="blog-details-wrap">
         <div className="blog-top-content-wrap">
           <Image
-            src="/img/blog-details/details-img.jpg"
+            src="/img/blog-details/details-img.png"
             alt="Image"
             width={810}
             height={470}
@@ -30,50 +30,64 @@ const BlogDetailsContent = () => {
             </li>
           </ul>
 
-          <h3>Videojjgjkg Production Services Your Business Must Have</h3>
+          <h3>
+            AAFT and ICMEI Celebrate 78th Independence Day with Patriotic Fervor
+            at Noida Film City
+          </h3>
 
           <p>
-            MSTV is not just about entertainment; it's also a source of
-            knowledge and enlightenment. The channel's thought-provoking
-            documentaries delve into various subjects, from history and science
-            to culture and society. These documentaries provide viewers with
-            valuable insights and perspectives, fostering a sense of curiosity
-            and understanding about the world around them.
-          </p>
-
-          <p>
-            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-            kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-            amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-            diam nonumy eirmod tempor invidunt ut labore et dolore magna
-            aliquyam erat, sed diam voluptua. At vero eos et accus amet justo
-            duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-            sanctus est Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet justo duo dolores.
+            Dr. Sandeep Marwah, Chancellor of AAFT University and President of
+            ICMEI, led the celebrations with a stirring address. “We are
+            fortunate to enjoy the freedoms and comforts of life, but let us not
+            forget the brave men and women of our armed forces who guard our
+            borders with unwavering dedication and without a single complaint.
+            Today, we honor those who have shed their blood for the security of
+            our nation and those who continue to serve, providing us with a
+            peaceful and prosperous country,” Dr. Marwah stated, emphasizing the
+            sacrifices made by the nation’s defenders.
           </p>
 
           <blockquote>
             <i className="flaticon-quote"></i>
             <p>
-              MSTV is not just about entertainment; it's also a source of
-              knowledge and enlightenment. The channel's thought-provoking
-              documentaries delve into various subjects, from history and
-              science to culture and society. These documentaries provide
-              viewers with valuable insights and perspectives, fostering a sense
-              of curiosity and understanding about the world around them.
+              Noida, India – August 15, 2024 – The 78th Independence Day of the
+              Republic of India was celebrated with great enthusiasm and
+              patriotism at Marwah Studios, Noida Film City. The event was
+              organized by the International Chamber of Media and Entertainment
+              Industry (ICMEI) in association with the Asian Academy of Film and
+              Television (AAFT).
             </p>
           </blockquote>
 
           <p>
-            MSTV is not just about entertainment; it's also a source of
-            knowledge and enlightenment. The channel's thought-provoking
-            documentaries delve into various subjects, from history and science
-            to culture and society. These documentaries provide viewers with
-            valuable insights and perspectives, fostering a sense of curiosity
-            and understanding about the world around them.
+            The event featured heartfelt performances of patriotic songs by AAFT
+            students and teachers, creating an emotional atmosphere that
+            resonated with everyone present. The auditorium later came alive
+            with vibrant music and dance, infusing the celebration with energy
+            and enthusiasm.
+          </p>
+          <p>
+            Dr. Marwah also shared his personal experiences, reflecting on his
+            nine years of service as District Commandant in the Delhi Home
+            Guards, where he led 12,000 jawans in various capacities. His
+            commitment to the nation, both in and out of uniform, added a
+            powerful dimension to the event’s proceedings.
+          </p>
+          <p>
+            In a poignant moment, Dr. Marwah recounted the hardships his family
+            faced during the partition of 1947, when they were displaced from
+            Peshawar and endured severe suffering without food or shelter. His
+            story served as a reminder of the resilience and strength that have
+            shaped India’s journey to independence.
+          </p>
+          <p>
+            The Independence Day celebration at Marwah Studios not only honored
+            the past but also inspired a renewed sense of patriotism and
+            responsibility among the attendees, especially the younger
+            generation.
           </p>
         </div>
-
+        {/* 
         <div className="tags-and-shear-wrap">
           <div className="row">
             <div className="col-lg-6 col-md-7">
@@ -156,7 +170,7 @@ const BlogDetailsContent = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Comments & Comments Form */}
         <Comments />

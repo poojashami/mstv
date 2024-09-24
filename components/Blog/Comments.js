@@ -5,7 +5,7 @@ import Image from "next/image";
 const Comments = () => {
   return (
     <>
-      <div className="comments-wrap">
+      {/* <div className="comments-wrap">
         <h3>User comments (02)</h3>
 
         <ul>
@@ -57,7 +57,7 @@ const Comments = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
 
       {/* <div className="leave-reply-wrap">
         <h3>Leave A Reply</h3>

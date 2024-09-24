@@ -112,19 +112,19 @@ const Footer = () => {
                     <h3>Useful Links</h3>
                     <ul className="address">
                       <li>
-                        <Link href="#">About Us</Link>
+                        <Link href="/about/">About Us</Link>
                       </li>
                       <li>
-                        <Link href="#">Our Program</Link>
+                        <Link href="/blog-grid/">Our Program</Link>
                       </li>
                       <li>
-                        <Link href="#">MSTV Videos</Link>
+                        <Link href="/videos/">MSTV Videos</Link>
                       </li>
                       <li>
-                        <Link href="#">Testimonial</Link>
+                        <Link href="/testimonials/">Testimonial</Link>
                       </li>
                       <li>
-                        <Link href="#">News & Media</Link>
+                        <Link href="/news-and-media/">News & Media</Link>
                       </li>
                     </ul>
                   </div>
@@ -228,8 +228,23 @@ const Footer = () => {
       <footer className="footer-bottom-area">
         <div className="container">
           <div className="copyright-wrap">
-            <p>
-              © Copyrights 2024 MSTV All rights reserved.
+            <p style={{ fontSize: "12px !important" }}>
+              All rights reserved @ 2024{" "}
+              <a
+                href="https://mstv.co.in/"
+                target="blank"
+                style={{ cursor: "pointer", color: "#0044CC" }}
+              >
+                MSTV
+              </a>
+              . Designed and Developed by{" "}
+              <a
+                href="https://indicorpit.com/"
+                target="blank"
+                style={{ cursor: "pointer", color: "#0044CC" }}
+              >
+                IndiCorp IT Solutions Pvt Ltd
+              </a>
               {/* <a href="https://envytheme.com/" target="blank">EnvyTheme</a>  */}
             </p>
           </div>
