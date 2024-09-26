@@ -16,10 +16,10 @@ const About = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="About"
+        pageTitle="About US"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="About"
+        activePageText="About US"
         bgImg="/img/page-banner/page-banner1.jpg"
       />
 
@@ -34,7 +34,7 @@ const About = () => {
       {/* <div className="bg-color">
         <AwardWinningMovies />
       </div> */}
-      <AwardWinningMovies/>
+      <AwardWinningMovies />
 
       <ContactWithUs />
 

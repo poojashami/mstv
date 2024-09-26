@@ -6,8 +6,8 @@ import Image from "next/image";
 const Testimonials = () => {
   return (
     <>
-      <div className="testimonial-area-three bg-color-two pb-100">
-        <h3 style={{ textAlign: "center", color: "#ff0000" }}>Testimonial</h3>
+      <div className="testimonial-area-three bg-color-two pb-50">
+        <h3 style={{ textAlign: "center", color: "#ff0000" }}>Testimonials</h3>
         <h1
           style={{ textAlign: "center", color: "#fff", marginBottom: "50px" }}
         >

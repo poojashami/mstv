@@ -8,7 +8,7 @@ const BlogTwoColumns = () => {
       <div className="row">
         <div className="col-lg-6 col-md-6">
           <div className="single-blog">
-            <Link href="/blog-details">
+            <Link href="/program-details/">
               <Image
                 src="/img/news/news1.jpg"
                 alt="Image"
@@ -30,7 +30,7 @@ const BlogTwoColumns = () => {
                 </li>
               </ul>
 
-              <Link href="/blog-details">
+              <Link href="/program-details/">
                 <h3>
                   Sandeep Marwah Special Guest at Exhibition of Cinematic
                   Heritage
@@ -44,7 +44,7 @@ const BlogTwoColumns = () => {
                 from the glorious history of Indian cinema.
               </p>
 
-              <Link href="/blog-details" className="read-more">
+              <Link href="/program-details/" className="read-more">
                 Read More
               </Link>
             </div>
@@ -53,7 +53,7 @@ const BlogTwoColumns = () => {
 
         <div className="col-lg-6 col-md-6">
           <div className="single-blog">
-            <Link href="/blog-details">
+            <Link href="/program-details/">
               <Image
                 src="/img/news/news2.jpg"
                 alt="Image"
@@ -75,7 +75,7 @@ const BlogTwoColumns = () => {
                 </li>
               </ul>
 
-              <Link href="/blog-details">
+              <Link href="/program-details/">
                 <h3>Bharat Ratna Atal Bihari Vajpayee Remembered at AAFT</h3>
               </Link>
 
@@ -87,7 +87,7 @@ const BlogTwoColumns = () => {
                 anniversary.
               </p>
 
-              <Link href="/blog-details" className="read-more">
+              <Link href="/program-details/" className="read-more">
                 Read More
               </Link>
             </div>
@@ -96,7 +96,7 @@ const BlogTwoColumns = () => {
 
         <div className="col-lg-6 col-md-6">
           <div className="single-blog">
-            <Link href="/blog-details">
+            <Link href="/program-details/">
               <Image
                 src="/img/news/news3.jpg"
                 alt="Image"
@@ -118,7 +118,7 @@ const BlogTwoColumns = () => {
                 </li>
               </ul>
 
-              <Link href="/blog-details">
+              <Link href="/program-details/">
                 <h3>
                   AAFT Collaborates with NFDC to Promote Skill Development in
                   Media and Entertainment Industry
@@ -132,7 +132,7 @@ const BlogTwoColumns = () => {
                 with the National Film Development Corporation (NFDC),
               </p>
 
-              <Link href="/blog-details" className="read-more">
+              <Link href="/program-details/" className="read-more">
                 Read More
               </Link>
             </div>
@@ -141,7 +141,7 @@ const BlogTwoColumns = () => {
 
         <div className="col-lg-6 col-md-6">
           <div className="single-blog">
-            <Link href="/blog-details">
+            <Link href="/program-details/">
               <Image
                 src="/img/news/news7.jpg"
                 alt="Image"
@@ -162,7 +162,7 @@ const BlogTwoColumns = () => {
                 </li>
               </ul>
 
-              <Link href="/blog-details">
+              <Link href="/program-details/">
                 <h3>
                   ICMEI Celebrates National Day of Niger with Heartfelt
                   Congratulations
@@ -178,7 +178,7 @@ const BlogTwoColumns = () => {
                 of Niger on the occasion of their Independence Day.
               </p>
 
-              <Link href="/blog-details" className="read-more">
+              <Link href="/program-details/" className="read-more">
                 Read More
               </Link>
             </div>
@@ -187,7 +187,7 @@ const BlogTwoColumns = () => {
 
         <div className="col-lg-6 col-md-6">
           <div className="single-blog">
-            <Link href="/blog-details">
+            <Link href="/program-details/">
               <Image
                 src="/img/news/news8.jpg"
                 alt="Image"
@@ -208,7 +208,7 @@ const BlogTwoColumns = () => {
                 </li>
               </ul>
 
-              <Link href="/blog-details">
+              <Link href="/program-details/">
                 <h3>
                   ICMEI Celebrates National Day of Burkina Faso with Warm
                   Congratulations
@@ -224,7 +224,7 @@ const BlogTwoColumns = () => {
                 Faso on the occasion of their Independence Day.
               </p>
 
-              <Link href="/blog-details" className="read-more">
+              <Link href="/program-details/" className="read-more">
                 Read More
               </Link>
             </div>
@@ -233,7 +233,7 @@ const BlogTwoColumns = () => {
 
         <div className="col-lg-6 col-md-6">
           <div className="single-blog">
-            <Link href="/blog-details">
+            <Link href="/program-details/">
               <Image
                 src="/img/news/news9.jpg"
                 alt="Image"
@@ -254,7 +254,7 @@ const BlogTwoColumns = () => {
                 </li>
               </ul>
 
-              <Link href="/blog-details">
+              <Link href="/program-details/">
                 <h3>
                   ICMEI Celebrates Independence Day of Chad at Headquarters in
                   Noida Film City
@@ -270,7 +270,7 @@ const BlogTwoColumns = () => {
                 Independence Day.
               </p>
 
-              <Link href="/blog-details" className="read-more">
+              <Link href="/program-details/" className="read-more">
                 Read More
               </Link>
             </div>
@@ -279,25 +279,25 @@ const BlogTwoColumns = () => {
 
         {/* <div className="col-lg-12 col-md-12">
           <div className="pagination-area text-center">
-            <Link href="/blog-details" className="prev page-numbers">
+            <Link href="/program-details/" className="prev page-numbers">
               <i className="bx bx-chevron-left"></i>
             </Link>
 
             <span className="page-numbers current">1</span>
 
-            <Link href="/blog-details" className="page-numbers">
+            <Link href="/program-details/" className="page-numbers">
               2
             </Link>
 
-            <Link href="/blog-details" className="page-numbers">
+            <Link href="/program-details/" className="page-numbers">
               3
             </Link>
 
-            <Link href="/blog-details" className="page-numbers">
+            <Link href="/program-details/" className="page-numbers">
               4
             </Link>
 
-            <Link href="/blog-details" className="next page-numbers">
+            <Link href="/program-details/" className="next page-numbers">
               <i className="bx bx-chevron-right"></i>
             </Link>
           </div>

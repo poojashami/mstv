@@ -18,7 +18,7 @@ const BlogLeftSidebar = () => {
         bgImg="/img/page-banner/page-banner8.jpg"
       />
 
-      <div className="blog-details-area ptb-100">
+      <div className="blog-details-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-4">

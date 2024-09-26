@@ -9,6 +9,15 @@ const Navbar = () => {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.addedItems);
   const collapsed = useSelector((state) => state.collapsedState);
+  const [input, setInput] = useState("");
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+  };
+
+  const handleInputChange = (e) => {
+    setInput(e.target.value.toLowerCase());
+  };
 
   const toggleNavbar = () => {
     dispatch({
@@ -137,9 +146,9 @@ const Navbar = () => {
                   {/* </li> */}
                   <li className="nav-item">
                     <Link
-                      href="/about/"
+                      href="/about-us/"
                       className={`nav-link ${
-                        currentPath == "/about/" && "active"
+                        currentPath == "/about-us/" && "active"
                       }`}
                     >
                       About Us
@@ -147,9 +156,9 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/blog-grid/"
+                      href="/our-programs/"
                       className={`nav-link ${
-                        currentPath == "/blog-grid/" && "active"
+                        currentPath == "/our-programs/" && "active"
                       }`}
                     >
                       Our Programs
@@ -394,9 +403,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/blog-grid/"
+                          href="/our-programs/"
                           className={`nav-link ${
-                            currentPath == "/blog-grid/" && "active"
+                            currentPath == "/our-programs/" && "active"
                           }`}
                         >
                           Blog Grid
@@ -459,9 +468,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/blog-grid/"
+                          href="/our-programs/"
                           className={`nav-link ${
-                            currentPath == "/blog-grid/" && "active"
+                            currentPath == "/our-programs/" && "active"
                           }`}
                         >
                           Blog Grid
@@ -516,12 +525,14 @@ const Navbar = () => {
               </div>
 
               <div className="others-option">
-                <form className="search-form">
+                <form className="search-form" onSubmit={handleSearchSubmit}>
                   <input
-                    className="form-control"
+                    className="form-control search-input"
                     name="search"
                     placeholder="SEARCH"
                     type="text"
+                    value={input}
+                    onChange={handleInputChange}
                   />
                   <button className="search-button" type="submit">
                     <i className="bx bx-search"></i>

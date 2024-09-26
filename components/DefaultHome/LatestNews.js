@@ -11,7 +11,7 @@ const LatestNews = () => {
             <span className="top-title" style={{ color: "#ff0000" }}>
               Latest News
             </span>
-            <h2>Latest News & Events</h2>
+            <h2>Latest News & Eventsww</h2>
           </div>
 
           <div className="row justify-content-center">

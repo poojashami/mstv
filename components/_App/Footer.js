@@ -13,7 +13,7 @@ const Footer = () => {
       toast.error("Please enter your email.");
       return;
     }
-    toast.success("Email sent successfully! Please check your inbox.");
+    toast.success("Thank you for subscribing!");
     setEmail("");
   };
   return (
@@ -48,7 +48,13 @@ const Footer = () => {
                   >
                     <i class="bx bx-mobile"></i> +91 458 654 528
                   </h6>
-                  <h6 style={{ color: "black", textAlign: "center" }}>
+                  <h6
+                    style={{
+                      color: "black",
+                      textAlign: "center",
+                      textTransform: "lowercase",
+                    }}
+                  >
                     <i class="bx bx-envelope"></i> info@mstv.co.in
                   </h6>
                 </div>
@@ -112,19 +118,24 @@ const Footer = () => {
                     <h3>Useful Links</h3>
                     <ul className="address">
                       <li>
-                        <Link href="/about/">About Us</Link>
+                        <Link href="/about-us/">About US</Link>
                       </li>
                       <li>
-                        <Link href="/blog-grid/">Our Program</Link>
+                        <Link href="/our-programs/">Our Programs</Link>
                       </li>
                       <li>
                         <Link href="/videos/">MSTV Videos</Link>
                       </li>
                       <li>
-                        <Link href="/testimonials/">Testimonial</Link>
+                        <Link href="/testimonials/">Testimonials</Link>
                       </li>
                       <li>
                         <Link href="/news-and-media/">News & Media</Link>
+                      </li>
+                      <li>
+                        <Link href="/awardsAndAccolades/">
+                          Award / Accolades
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -228,13 +239,9 @@ const Footer = () => {
       <footer className="footer-bottom-area">
         <div className="container">
           <div className="copyright-wrap">
-            <p style={{ fontSize: "12px !important" }}>
+            <p >
               All rights reserved @ 2024{" "}
-              <a
-                href="https://mstv.co.in/"
-                target="blank"
-                style={{ cursor: "pointer", color: "#0044CC" }}
-              >
+              <a href="/" style={{ cursor: "pointer", color: "#0044CC" }}>
                 MSTV
               </a>
               . Designed and Developed by{" "}

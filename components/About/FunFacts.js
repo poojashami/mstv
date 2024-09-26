@@ -3,7 +3,7 @@ import React from "react";
 const FunFacts = () => {
   return (
     <>
-      <div className="counter-area pb-70">
+      <div className="counter-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-sm-6">

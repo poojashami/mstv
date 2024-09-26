@@ -3,9 +3,17 @@ import Link from "next/link";
 import Image from "next/image";
 
 const LatestNews = () => {
+  const descriptionStyle = {
+    width: "350px",
+    display: "-webkit-box",
+    WebkitBoxOrient: "vertical",
+    overflow: "hidden",
+    WebkitLineClamp: 3, // Show 3 lines, then ellipsis
+    textOverflow: "ellipsis",
+  };
   return (
     <>
-      <section className="blog-area-three bg-color-two pt-100 pb-70">
+      <section className="blog-area-three bg-color-two ">
         <div className="container">
           <div className="section-title white-title">
             <span className="top-title" style={{ color: "#ff0000" }}>
@@ -40,13 +48,13 @@ const LatestNews = () => {
                   </ul> */}
 
                   <Link href="/event-details">
-                    <h3>
+                    <h3 style={descriptionStyle}>
                       AAFT and ICMEI Celebrate 78th Independence Day with
                       Patriotic Fervor at Noida Film City
                     </h3>
                   </Link>
 
-                  <p>
+                  <p style={descriptionStyle}>
                     Noida, India – August 15, 2024 – The 78th Independence Day
                     of the Republic of India was celebrated with great
                     enthusiasm and patriotism at Marwah Studios, Noida Film
@@ -85,13 +93,13 @@ const LatestNews = () => {
                   </ul> */}
 
                   <Link href="/event-details">
-                    <h3>
+                    <h3 style={descriptionStyle}>
                       Dr. Sandeep Marwah Honored with Bharat Ratan Dr. Abdul
                       Kalam Global Award 2024 for World Peace
                     </h3>
                   </Link>
 
-                  <p>
+                  <p style={descriptionStyle}>
                     Dr. Sandeep Marwah, Chancellor of AAFT University and
                     founder of Noida Film City, has been honored with the
                     prestigious Bharat Ratan Dr. Abdul Kalam Global Award 2024.
@@ -131,13 +139,13 @@ const LatestNews = () => {
                   </ul> */}
 
                   <Link href="/event-details">
-                    <h3>
+                    <h3 style={descriptionStyle}>
                       WPDRF and Brahma Kumaris Unite to Promote Indian Festivals
                       and Cultural Traditions
                     </h3>
                   </Link>
 
-                  <p>
+                  <p style={descriptionStyle}>
                     Noida, India – August 2024 – In a powerful initiative to
                     preserve and promote India’s rich cultural heritage, the
                     World Peace Development and Research Foundation (WPDRF), in

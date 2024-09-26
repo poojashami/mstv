@@ -48,7 +48,7 @@ const UpcomingMovies = () => {
       <FsLightbox toggler={toggler} sources={[videoSrc]} />
 
       <div
-        className="latest-trailer-three ptb-100 jarallax"
+        className="latest-trailer-three  jarallax"
         style={{ backgroundImage: `url(/img/latest-trailer-bg.jpg)` }}
       >
         <div className="container">

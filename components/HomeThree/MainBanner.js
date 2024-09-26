@@ -17,7 +17,7 @@ const MaminBanner = () => {
 
       <div
         className="banner-area jarallax"
-        style={{ backgroundImage: `url(/img/banner/mstvBanner1.jpg)` }}
+        style={{ backgroundImage: `url(/img/banner/mstvBanner1.png)` }}
       >
         <div className="d-table">
           <div className="d-table-cell">
@@ -57,7 +57,7 @@ const MaminBanner = () => {
 
         <div className="banner-img">
           <Image
-            src="/img/banner/mstvBanner1.jpg"
+            src="/img/banner/mstvBanner1.png"
             alt="Image"
             width={1290}
             height={870}

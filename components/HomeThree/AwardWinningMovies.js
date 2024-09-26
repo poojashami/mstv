@@ -105,7 +105,7 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link href="/awardsAndAccolades" className="default-btn">
                           Read More
                         </Link>
                       </div>
@@ -160,7 +160,7 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link href="/awardsAndAccolades" className="default-btn">
                           Read More
                         </Link>
                       </div>
@@ -215,7 +215,7 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link href="/awardsAndAccolades" className="default-btn">
                           Read More
                         </Link>
                       </div>
@@ -270,7 +270,7 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link href="/awardsAndAccolades" className="default-btn">
                           Read More
                         </Link>
                       </div>
@@ -325,7 +325,7 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link href="/awardsAndAccolades" className="default-btn">
                           Read More
                         </Link>
                       </div>
@@ -337,8 +337,8 @@ class AwardWinningMovies extends Component {
           </div>
         </div> */}
         <div
-          className="products-area three ptb-100 jarallax"
-          style={{ paddingBottom: "150px" }}
+          className="products-area three jarallax main-award"
+          // style={{ paddingBottom: "150px" }}
         >
           <div className="container">
             <div className="section-title white-title">
@@ -417,7 +417,10 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link
+                          href="/awardsAndAccolades"
+                          className="default-btn"
+                        >
                           Read More
                         </Link>
                       </div>
@@ -471,7 +474,10 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link
+                          href="/awardsAndAccolades"
+                          className="default-btn"
+                        >
                           Read More
                         </Link>
                       </div>
@@ -526,7 +532,10 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link
+                          href="/awardsAndAccolades"
+                          className="default-btn"
+                        >
                           Read More
                         </Link>
                       </div>
@@ -581,7 +590,10 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link
+                          href="/awardsAndAccolades"
+                          className="default-btn"
+                        >
                           Read More
                         </Link>
                       </div>
@@ -636,7 +648,10 @@ class AwardWinningMovies extends Component {
                           pre-production and post-production the images are.
                         </p>
 
-                        <Link href="#" className="default-btn">
+                        <Link
+                          href="/awardsAndAccolades"
+                          className="default-btn"
+                        >
                           Read More
                         </Link>
                       </div>

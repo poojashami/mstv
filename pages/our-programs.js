@@ -18,13 +18,13 @@ const BlogGrid = () => {
         bgImg="/img/page-banner/page-banner6.jpg"
       />
 
-      <div className="blog-area ptb-100">
+      <div className="blog-area">
         <div className="container">
           <div className="section-title">
             <span className="top-title" style={{ color: "#ff0000" }}>
               Our Events
             </span>
-            <h2>Get The All Events</h2>
+            <h2>Get All The Events</h2>
           </div>
 
           <div className="row">

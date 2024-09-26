@@ -3,7 +3,7 @@ import React from "react";
 const WeProvideServices = () => {
   return (
     <>
-      <div className="our-production-area bg-color pt-100 pb-70">
+      <div className="our-production-area bg-color">
         <div className="container">
           <div className="section-title">
             <span style={{ color: "#ff0000" }}>Why select us</span>

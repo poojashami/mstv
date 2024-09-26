@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutContent = () => {
   return (
     <>
-      <div className="about-area-two bio-data ptb-100">
+      <div className="about-area-two bio-data">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">

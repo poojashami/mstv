@@ -5,7 +5,7 @@ import Image from "next/image";
 const TestimonialsCaed = () => {
   return (
     <>
-      <div className="testimonial-page-area ptb-100">
+      <div className="testimonial-page-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">

@@ -3,7 +3,7 @@ import React from "react";
 const ProductionProcess = () => {
   return (
     <>
-      <section className="production-process-area bg-color-two pt-100 pb-130">
+      <section className="production-process-area bg-color-two ">
         <div className="container">
           <div className="section-title white-title">
             <span style={{ color: "#ff0000" }}>Our Video</span>

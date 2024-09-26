@@ -13,7 +13,7 @@ const Whatsapp = () => {
 
   return (
     <div className="whatspp-btn" onClick={handleWhatsappClick}>
-      <Image src="/img/whatsapp.png" alt="WhatsApp" width={50} height={50} />
+      <Image src="/img/whatsapp.jpg" alt="WhatsApp" width={50} height={50} />
     </div>
   );
 };

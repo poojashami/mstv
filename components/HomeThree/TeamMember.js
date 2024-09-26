@@ -9,7 +9,7 @@ const TeamMember = () => {
     <>
       <AuthorSection />
       <section
-        className="team-area-three pt-100 pb-70 jarallax"
+        className="team-area-three jarallax"
         style={{ backgroundImage: `url(/img/team-bg.jpg)` }}
       >
         <div className="container">

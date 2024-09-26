@@ -5,7 +5,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <>
-      <div className="about-area-two three bg-color-two ptb-100">
+      <div className="about-area-two three bg-color-two">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -21,7 +21,7 @@ const About = () => {
                   and thinkers together, enabling them to share their insights,
                   stories, and visions with a global audience.
                 </p>
-             
+
                 <Link href="/about" className="default-btn three">
                   Know More
                 </Link>

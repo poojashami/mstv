@@ -4,6 +4,7 @@ import PageBanner from "../components/Common/PageBanner";
 import BlogDetailsContent from "../components/Blog/BlogDetailsContent";
 import BlogSidebar from "../components/Blog/BlogSidebar";
 import Footer from "../components/_App/Footer";
+import LatestNews from "../components/HomeThree/LatestNews";
 
 const EventDetails = () => {
   return (
@@ -18,7 +19,7 @@ const EventDetails = () => {
         bgImg="/img/page-banner/page-banner5.jpg"
       />
 
-      <div className="blog-details-area ptb-100">
+      <div className="blog-details-area pt-100">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
@@ -34,6 +35,7 @@ const EventDetails = () => {
             </div>
           </div>
         </div>
+        <LatestNews />
       </div>
 
       <Footer />

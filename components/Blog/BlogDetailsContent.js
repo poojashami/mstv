@@ -6,8 +6,8 @@ import Image from "next/image";
 const BlogDetailsContent = () => {
   return (
     <>
-      <div className="blog-details-wrap">
-        <div className="blog-top-content-wrap">
+      <div className="blog-details-wrap pb-4">
+        <div className="blog-top-content-wrap pb-4">
           <Image
             src="/img/blog-details/details-img.png"
             alt="Image"
@@ -31,60 +31,68 @@ const BlogDetailsContent = () => {
           </ul>
 
           <h3>
-            AAFT and ICMEI Celebrate 78th Independence Day with Patriotic Fervor
-            at Noida Film City
+            Swapnil Rai Presents “Networked Bollywood” to Sandeep Marwah at
+            Marwah Studios
           </h3>
 
           <p>
-            Dr. Sandeep Marwah, Chancellor of AAFT University and President of
-            ICMEI, led the celebrations with a stirring address. “We are
-            fortunate to enjoy the freedoms and comforts of life, but let us not
-            forget the brave men and women of our armed forces who guard our
-            borders with unwavering dedication and without a single complaint.
-            Today, we honor those who have shed their blood for the security of
-            our nation and those who continue to serve, providing us with a
-            peaceful and prosperous country,” Dr. Marwah stated, emphasizing the
-            sacrifices made by the nation’s defenders.
+            Dr. Sandeep Marwah expressed his profound appreciation for Dr. Rai’s
+            rigorous research and dedication to the project. “I am happy to be
+            part of this journey. I remember how Swapnil spent hours and hours
+            collecting information connected to Bollywood, and I did not
+            hesitate to share information for this great research, which has now
+            been beautifully converted into a book. I congratulate Swapnil on
+            this remarkable achievement and wish her great success,” said Dr.
+            Marwah while accepting a copy of the book from Dr. Rai.
           </p>
 
           <blockquote>
             <i className="flaticon-quote"></i>
             <p>
-              Noida, India – August 15, 2024 – The 78th Independence Day of the
-              Republic of India was celebrated with great enthusiasm and
-              patriotism at Marwah Studios, Noida Film City. The event was
-              organized by the International Chamber of Media and Entertainment
-              Industry (ICMEI) in association with the Asian Academy of Film and
-              Television (AAFT).
+              Noida, 21st August 2024 – Dr. Swapnil Rai, is an Assistant
+              Professor in the Department of Film, Television, and Media at the
+              University of Michigan, Ann Arbor, USA, presented her newly
+              published book “Networked Bollywood: How Star Power Globalized
+              Hindi Cinema” to Dr. Sandeep Marwah, President of Marwah Studios
+              and Chancellor of AAFT University, in a special ceremony at Marwah
+              Studios, Noida. The event was marked by a warm exchange of ideas
+              and mutual admiration between the author and the celebrated media
+              and film educationist.
             </p>
           </blockquote>
 
           <p>
-            The event featured heartfelt performances of patriotic songs by AAFT
-            students and teachers, creating an emotional atmosphere that
-            resonated with everyone present. The auditorium later came alive
-            with vibrant music and dance, infusing the celebration with energy
-            and enthusiasm.
+            During her address, Dr. Swapnil Rai shared her deep passion and
+            insights into the complex connections between Bollywood stars and
+            the global entertainment industry. Her interdisciplinary
+            scholarship, which meticulously examines the pivotal role of stars
+            in Bollywood’s globalization through extensive research and cultural
+            analysis, has been widely praised for its depth and accessibility.
           </p>
           <p>
-            Dr. Marwah also shared his personal experiences, reflecting on his
-            nine years of service as District Commandant in the Delhi Home
-            Guards, where he led 12,000 jawans in various capacities. His
-            commitment to the nation, both in and out of uniform, added a
-            powerful dimension to the event’s proceedings.
+            “Networked Bollywood” provides a comprehensive exploration of the
+            various phases of Hindi cinema’s history, highlighting the key
+            transformations influenced by significant historical events such as
+            colonialism, independence, the Cold War, and the liberalization of
+            the Indian economy. Dr. Rai argues that Bollywood’s global reach is
+            not a recent phenomenon but rather a historical continuum, with its
+            globalization origins tracing back through several decades of Hindi
+            cinema.
           </p>
           <p>
-            In a poignant moment, Dr. Marwah recounted the hardships his family
-            faced during the partition of 1947, when they were displaced from
-            Peshawar and endured severe suffering without food or shelter. His
-            story served as a reminder of the resilience and strength that have
-            shaped India’s journey to independence.
+            The event underscored the significance of academic contributions to
+            the understanding of global cinema and the role of Bollywood in
+            shaping cultural narratives worldwide. Dr. Rai’s work is set to
+            become an essential resource for scholars, students, and anyone
+            interested in the evolution of Hindi cinema and its international
+            impact.
           </p>
           <p>
-            The Independence Day celebration at Marwah Studios not only honored
-            the past but also inspired a renewed sense of patriotism and
-            responsibility among the attendees, especially the younger
-            generation.
+            The occasion was a testament to the collaborative spirit between
+            academia and the film industry, fostering a deeper appreciation of
+            the cultural and historical forces that continue to shape the global
+            entertainment landscape. The event was supported by Indo American
+            Film and Cultural Forum.
           </p>
         </div>
         {/* 

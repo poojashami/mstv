@@ -50,7 +50,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-area ptb-100">
+    <div className="contact-area">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-5">

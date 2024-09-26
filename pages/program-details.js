@@ -18,7 +18,7 @@ const BlogDetails = () => {
         bgImg="/img/page-banner/page-banner5.jpg"
       />
 
-      <div className="blog-details-area ptb-100">
+      <div className="blog-details-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
@@ -35,7 +35,6 @@ const BlogDetails = () => {
           </div>
         </div>
       </div>
-
       <Footer />
     </>
   );

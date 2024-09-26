@@ -5,7 +5,7 @@ import Image from "next/image";
 const WhatWeDo = () => {
   return (
     <>
-      <section className="what-we-do-area three bg-color-two pt-100 pb-70">
+      <section className="what-we-do-area three bg-color-two">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -21,70 +21,72 @@ const WhatWeDo = () => {
                 </p>
 
                 <div className="brand-wrap">
-                  <div className="row">
-                    <div className="col-lg-4 col-md-4 col-sm-6">
-                      <div className="brand">
-                        <Link href="#">
-                          <Image
-                            src="/img/journalism.png"
-                            alt="Image"
-                            width={105}
-                            height={80}
-                          />
-
-                          <div className="white-logo">
+                  <div className="row ">
+                    <div className="flex-images">
+                      <div className="col-lg-4 col-md-4 col-sm-6">
+                        <div className="brand">
+                          <Link href="#">
                             <Image
                               src="/img/journalism.png"
                               alt="Image"
                               width={105}
                               height={80}
                             />
-                          </div>
-                        </Link>
+
+                            <div className="white-logo">
+                              <Image
+                                src="/img/journalism.png"
+                                alt="Image"
+                                width={105}
+                                height={80}
+                              />
+                            </div>
+                          </Link>
+                        </div>
                       </div>
-                    </div>
 
-                    <div className="col-lg-4 col-md-4 col-sm-6">
-                      <div className="brand">
-                        <Link href="#">
-                          <Image
-                            src="/img/globalFilm.png"
-                            alt="Image"
-                            width={105}
-                            height={80}
-                          />
-
-                          <div className="white-logo">
+                      <div className="col-lg-4 col-md-4 col-sm-6">
+                        <div className="brand">
+                          <Link href="#">
                             <Image
                               src="/img/globalFilm.png"
                               alt="Image"
                               width={105}
                               height={80}
                             />
-                          </div>
-                        </Link>
+
+                            <div className="white-logo">
+                              <Image
+                                src="/img/globalFilm.png"
+                                alt="Image"
+                                width={105}
+                                height={80}
+                              />
+                            </div>
+                          </Link>
+                        </div>
                       </div>
-                    </div>
 
-                    <div className="col-lg-4 col-md-4 col-sm-6 offset-sm-3 offset-md-0">
-                      <div className="brand">
-                        <Link href="#">
-                          <Image
-                            src="/img/cellphoneCinema.png"
-                            alt="Image"
-                            width={105}
-                            height={80}
-                          />
-
-                          <div className="white-logo">
+                      <div className="col-lg-4 col-md-4 col-sm-6 offset-sm-3 offset-md-0">
+                        <div className="brand">
+                          <Link href="#">
                             <Image
                               src="/img/cellphoneCinema.png"
                               alt="Image"
                               width={105}
                               height={80}
                             />
-                          </div>
-                        </Link>
+
+                            <div className="white-logo">
+                              <Image
+                                src="/img/cellphoneCinema.png"
+                                alt="Image"
+                                width={105}
+                                height={80}
+                              />
+                            </div>
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </div>

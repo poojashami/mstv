@@ -7,7 +7,7 @@ const AuthorSection = () => {
   return (
     <>
       <section
-        className="team-area-three pt-100 pb-70 jarallax"
+        className="team-area-three  jarallax"
         style={{ backgroundImage: `url(/img/team-bg.jpg)` }}
       >
         <div className="container">
@@ -129,7 +129,7 @@ const AuthorSection = () => {
 
                 <div className="team-content">
                   <h3>Mohit Marwah</h3>
-                  <span>Vice President AEG</span>
+                  <span>Vice President, Asian Education Group</span>
                 </div>
               </div>
             </SwiperSlide>

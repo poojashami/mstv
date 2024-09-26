@@ -15,7 +15,7 @@ const VideoCreated = () => {
         ]}
       />
 
-      <div className="video-created-area-three bg-color-two pb-100">
+      <div className="video-created-area-three bg-color-two pb-50">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-3 col-md-3 p-0">

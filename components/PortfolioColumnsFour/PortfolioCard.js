@@ -4,171 +4,123 @@ import Link from "next/link";
 
 const PortfolioCard = () => {
   const [lightboxControllers, setLightboxControllers] = useState({
-    toggler1: false,
-    source1: "https://www.youtube.com/embed/bk7McNUjWgw",
-    toggler2: false,
-    source2: "https://www.youtube.com/embed/other-video-1",
-    toggler3: false,
-    source3: "https://www.youtube.com/embed/other-video-2",
-    toggler4: false,
-    source4: "https://www.youtube.com/embed/other-video-3",
-    // Add more sources and togglers as needed
+    toggler: false,
+    source: "",
   });
+  const [showMore, setShowMore] = useState(false); // State to handle "View More"
 
-  const toggleLightbox = (index) => {
-    setLightboxControllers((prevState) => ({
-      ...prevState,
-      [`toggler${index}`]: !prevState[`toggler${index}`],
-    }));
+  // Array of videos with data
+  const videos = [
+    {
+      thumbnail: "/img/portfolio/videos2.png",
+      title:
+        "Guest of Marwah Studios | Upali Prakash Chhabra | Investment Consultant | Model | MSTV",
+      videoSource:
+        "https://www.youtube.com/embed/XhgNiArG8uk?si=cyRUbGcPf4KSCmkL",
+    },
+    {
+      thumbnail: "/img/portfolio/videos3.png",
+      title:
+        "Guest of Marwah Studios | Dr. Rama Singh | Poet | 10th GLFN 2024 | Marwah Studios | MSTV",
+      videoSource:
+        "https://www.youtube.com/embed/wOQChfemdMY?si=tgZ_r65n5SF9_r5J",
+    },
+    {
+      thumbnail: "/img/portfolio/videos4.png",
+      title:
+        "Sunita Kaul with Sumita Singh | Deputy Gen Manager (Corp. Comm.) at Indian Oil Corp | MSTV",
+      videoSource:
+        "https://www.youtube.com/embed/QXIe4Z_fw90?si=ALUvaTCMtFwX36Vz",
+    },
+    {
+      thumbnail: "/img/portfolio/videos5.png",
+      title:
+        "Guest of Marwah Studios | Krishna Kalra | Business Women | Marwah Studios | MSTV",
+      videoSource:
+        "https://www.youtube.com/embed/S6mJa-6aGGU?si=pCQXukEZRlFZW1Ko",
+    },
+    {
+      thumbnail: "/img/portfolio/mqdefault.jpg",
+      title:
+        "CROWNING CEREMONY | LUXURYDOT. PR | ICMEI | Marwah Studios | MSTV",
+      videoSource: "https://www.youtube.com/embed/bk7McNUjWgw",
+    },
+    {
+      thumbnail: "/img/portfolio/mqdefault1.jpg",
+      title:
+        "Actor, Writer & Director Karan Razdan with Journalist Shreeya Katyal | Marwah Studios | MSTV",
+      videoSource: "https://www.youtube.com/embed/other-video-1",
+    },
+    {
+      thumbnail: "/img/portfolio/mqdefault2.jpg",
+      title:
+        "Actor Kamaal Malik with Journalist Shreeya Katyal | Marwah Studios | MSTV",
+      videoSource: "https://www.youtube.com/embed/other-video-2",
+    },
+    {
+      thumbnail: "/img/portfolio/mqdefault3.jpg",
+      title:
+        "Film Director Iran Ebrahim Hatamikia with Journalist Shreeya Katyal | MSTV",
+      videoSource: "https://www.youtube.com/embed/other-video-3",
+    },
+  ];
+
+  const toggleLightbox = (source) => {
+    setLightboxControllers({
+      toggler: !lightboxControllers.toggler,
+      source: source,
+    });
+  };
+
+  const handleViewMore = () => {
+    setShowMore(!showMore); // Toggle showMore state
   };
 
   return (
     <>
-      {/* Add lightbox instances for each video */}
+      {/* Lightbox instance */}
       <FsLightbox
-        toggler={lightboxControllers.toggler1}
-        sources={[lightboxControllers.source1]}
-      />
-      <FsLightbox
-        toggler={lightboxControllers.toggler2}
-        sources={[lightboxControllers.source2]}
-      />
-      <FsLightbox
-        toggler={lightboxControllers.toggler3}
-        sources={[lightboxControllers.source3]}
-      />
-      <FsLightbox
-        toggler={lightboxControllers.toggler4}
-        sources={[lightboxControllers.source4]}
+        toggler={lightboxControllers.toggler}
+        sources={[lightboxControllers.source]}
       />
 
-      <section className="portfolio-area ptb-100">
+      <section className="portfolio-area">
         <div className="container">
           <div className="row justify-content-center">
-            {/* Portfolio Item 1 */}
-            <div className="col-lg-3 col-md-6">
-              <div className="single-portfolio">
-                <div
-                  className="portfolio-image"
-                  style={{
-                    backgroundImage: `url(/img/portfolio/mqdefault.jpg)`,
-                  }}
-                >
-                  <div className="price-wrap">
+            {/* Render portfolio items */}
+            {videos
+              .slice(0, showMore ? videos.length : 4)
+              .map((video, index) => (
+                <div key={index} className="col-lg-3 col-md-6">
+                  <div className="single-portfolio">
                     <div
-                      onClick={() => toggleLightbox(1)}
-                      className="play-video"
+                      className="portfolio-image"
+                      style={{ backgroundImage: `url(${video.thumbnail})` }}
                     >
-                      <i className="flaticon-play"></i>
+                      <div className="price-wrap">
+                        <div
+                          onClick={() => toggleLightbox(video.videoSource)}
+                          className="play-video"
+                        >
+                          <i className="flaticon-play"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="portfolio-content">
+                      <span>
+                        <Link href="#">{video.title}</Link>
+                      </span>
                     </div>
                   </div>
                 </div>
-                <div className="portfolio-content">
-                  {/* <span>Action</span> */}
-                  <span>
-                    <Link href="/portfolio-details">
-                      CROWNING CEREMONY | LUXURYDOT. PR | ICMEI | Marwah Studios
-                      | MSTV
-                    </Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Portfolio Item 2 */}
-            <div className="col-lg-3 col-md-6">
-              <div className="single-portfolio">
-                <div
-                  className="portfolio-image"
-                  style={{
-                    backgroundImage: `url(/img/portfolio/mqdefault1.jpg)`,
-                  }}
-                >
-                  <div className="price-wrap">
-                    <div
-                      onClick={() => toggleLightbox(2)}
-                      className="play-video"
-                    >
-                      <i className="flaticon-play"></i>
-                    </div>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  {/* <span>Shooting</span> */}
-                  <span>
-                    <Link href="/portfolio-details">
-                      Actor, Writer & Director Karan Razdan with Journalist
-                      Shreeya Katyal | Marwah Studios | MSTV
-                    </Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Portfolio Item 3 */}
-            <div className="col-lg-3 col-md-6">
-              <div className="single-portfolio">
-                <div
-                  className="portfolio-image"
-                  style={{
-                    backgroundImage: `url(/img/portfolio/mqdefault2.jpg)`,
-                  }}
-                >
-                  <div className="price-wrap">
-                    <div
-                      onClick={() => toggleLightbox(3)}
-                      className="play-video"
-                    >
-                      <i className="flaticon-play"></i>
-                    </div>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  {/* <span>Technology</span> */}
-                  <span>
-                    <Link href="/portfolio-details">
-                      Actor Kamaal Malik with Journalist Shreeya Katyal | Marwah
-                      Studios | MSTV
-                    </Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Portfolio Item 4 */}
-            <div className="col-lg-3 col-md-6">
-              <div className="single-portfolio">
-                <div
-                  className="portfolio-image"
-                  style={{
-                    backgroundImage: `url(/img/portfolio/mqdefault3.jpg)`,
-                  }}
-                >
-                  <div className="price-wrap">
-                    <div
-                      onClick={() => toggleLightbox(4)}
-                      className="play-video"
-                    >
-                      <i className="flaticon-play"></i>
-                    </div>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  {/* <span>Horror</span> */}
-                  <span>
-                    <Link href="/portfolio-details">
-                      Film Director Iran Ebrahim Hatamikia with Journalist
-                      Shreeya Katyal | MSTV
-                    </Link>
-                  </span>
-                </div>
-              </div>
-            </div>
+              ))}
           </div>
+
+          {/* View More Button */}
           <div className="col-12 text-center">
-            <Link href="#" className="default-btn">
-              View More
-            </Link>
+            <button onClick={handleViewMore} className="default-btn">
+              {showMore ? "View Less" : "View More"}
+            </button>
           </div>
         </div>
       </section>
